@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luminous – Dealer Price List</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="logo-area">
+    <div class="logo-icon">LU</div>
+    <div>
+      <div class="logo-text">LUMINOUS</div>
+      <div class="logo-sub">Dealer Price List</div>
+    </div>
+  </div>
+  <div class="header-meta">
+    <span><span class="badge">Dealer Only</span></span>
+    <span style="margin-top:4px">W.e.f. 09th June 2026 &nbsp;·&nbsp; South Region (excl. Kerala)</span>
+  </div>
+</header>
+
+<!-- MESSAGE PANEL (placed before table for top visibility) -->
+<div class="message-panel" id="messagePanel">
+  <div class="msg-header">
+    <div class="msg-title">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+      Generated Customer Message
+    </div>
+    <button class="btn-copy" id="copyBtn" onclick="copyMessage()">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+      Copy Message
+    </button>
+  </div>
+  <div class="msg-body">
+    <div class="msg-text" id="messageText"></div>
+    <div class="msg-note">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+      Message uses GST-included dealer price. MRP is not included in the message.
+    </div>
+  </div>
+</div>
+
+<div class="controls">
+  <div class="search-wrap">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+    <input type="text" id="searchInput" placeholder="Search by model, series, type…" oninput="applyFilters()">
+  </div>
+  <div class="filter-group">
+    <span class="filter-label">Price List</span>
+    <select id="filterSource" onchange="applyFilters()">
+      <option value="">All Sources</option>
+      <option value="INBT">INBT – Inverters & Batteries</option>
+      <option value="HKVA">HKVA – High KVA</option>
+      <option value="HELIOS">HELIOS – Li-Ion Batteries</option>
+      <option value="SOLAR">SOLAR – Solar Products</option>
+    </select>
+  </div>
+  <div class="filter-group">
+    <span class="filter-label">Product Type</span>
+    <select id="filterType" onchange="applyFilters()">
+      <option value="">All Types</option>
+      <option value="Inverter">Inverter</option>
+      <option value="Battery">Battery</option>
+      <option value="Solar Inverter">Solar Inverter</option>
+      <option value="Solar Battery">Solar Battery</option>
+      <option value="Solar Panel">Solar Panel</option>
+      <option value="Charge Controller">Charge Controller</option>
+      <option value="Helios Li-Ion">Helios Li-Ion</option>
+      <option value="Combo">Combo</option>
+      <option value="Accessory">Accessory</option>
+    </select>
+  </div>
+  <div class="filter-group">
+    <span class="filter-label">Max Price (₹ GST incl.)</span>
+    <select id="filterPrice" onchange="applyFilters()">
+      <option value="">Any Price</option>
+      <option value="5000">Under ₹5,000</option>
+      <option value="10000">Under ₹10,000</option>
+      <option value="15000">Under ₹15,000</option>
+      <option value="25000">Under ₹25,000</option>
+      <option value="50000">Under ₹50,000</option>
+      <option value="100000">Under ₹1,00,000</option>
+    </select>
+  </div>
+  <button class="btn-reset" onclick="resetFilters()">↺ Reset</button>
+</div>
+
+<div class="stats-bar">
+  <div class="stat-item"><span class="dot src-inbt"></span> <strong id="cnt-INBT">0</strong> Inverter/Battery</div>
+  <div class="stat-item"><span class="dot src-hkva"></span> <strong id="cnt-HKVA">0</strong> HKVA</div>
+  <div class="stat-item"><span class="dot src-helios"></span> <strong id="cnt-HELIOS">0</strong> Helios</div>
+  <div class="stat-item"><span class="dot src-solar"></span> <strong id="cnt-SOLAR">0</strong> Solar</div>
+  <div class="stat-item" style="margin-left:auto; color:var(--text)"><strong id="totalCount">0</strong>&nbsp;results</div>
+</div>
+
+<div class="results-container" id="resultsContainer"></div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,349 @@
+
+// ======================================================
+//  ALL PRODUCT DATA
+// ======================================================
+const products = [
+
+  // ── INBT INVERTERS (Sine Wave) ──
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'ICON 1100', dcV:'12V', gstPrice:9580, mrp:14500, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'ICON 1600', dcV:'12V', gstPrice:13096, mrp:17500, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'OPTIMUS 1250+', dcV:'12V', gstPrice:7701, mrp:10500, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'ECO VOLT NEO 750', dcV:'12V', gstPrice:4767, mrp:7190, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'ECO VOLT NEO 850', dcV:'12V', gstPrice:5009, mrp:7540, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'ECO VOLT NEO 1050', dcV:'12V', gstPrice:5771, mrp:9690, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'ECO VOLT NEO 1250+', dcV:'12V', gstPrice:6734, mrp:9750, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'ECO VOLT NEO 1550', dcV:'12V', gstPrice:9270, mrp:14500, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'ECO VOLT NEO 1650', dcV:'24V', gstPrice:8464, mrp:12000, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'ZELIO S 1150', dcV:'12V', gstPrice:7337, mrp:10000, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'ZELIO S 1250', dcV:'12V', gstPrice:7923, mrp:10250, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'ZELIO S 1550', dcV:'12V', gstPrice:10512, mrp:14950, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'EVO S 750', dcV:'12V', gstPrice:4767, mrp:7190, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'EVO S 850', dcV:'12V', gstPrice:5009, mrp:7540, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'EVO S 1050', dcV:'12V', gstPrice:5771, mrp:9690, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'EVO S 1250', dcV:'12V', gstPrice:6734, mrp:9750, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'EVO S 1550', dcV:'12V', gstPrice:9270, mrp:14500, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Sine Wave', model:'EVO S 1650', dcV:'24V', gstPrice:8464, mrp:12000, warranty:'3 Years'},
+  // Square Wave
+  {src:'INBT', type:'Inverter', wave:'Square Wave', model:'ECO WATT NEO 800', dcV:'12V', gstPrice:4437, mrp:6200, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Square Wave', model:'ECO WATT NEO 900', dcV:'12V', gstPrice:4772, mrp:6700, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Square Wave', model:'ECO WATT NEO 1050', dcV:'12V', gstPrice:5148, mrp:8550, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Square Wave', model:'ECO WATT NEO 1250 PRO', dcV:'12V', gstPrice:6143, mrp:9550, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Square Wave', model:'ECO WATT NEO 1650', dcV:'24V', gstPrice:7417, mrp:11500, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Square Wave', model:'SHAKTI CHARGE NEO 1150 PRO', dcV:'12V', gstPrice:5986, mrp:9150, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Square Wave', model:'SHAKTI CHARGE NEO 1450 PRO', dcV:'12V', gstPrice:6741, mrp:9750, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Square Wave', model:'SHAKTI CHARGE NEO 1750 PRO', dcV:'12V', gstPrice:8330, mrp:14000, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Square Wave', model:'EVO D 700', dcV:'12V', gstPrice:4244, mrp:5900, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Square Wave', model:'EVO D 800', dcV:'12V', gstPrice:4437, mrp:6200, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Square Wave', model:'EVO D 900', dcV:'12V', gstPrice:4772, mrp:6700, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Square Wave', model:'EVO D 1050', dcV:'12V', gstPrice:5148, mrp:8550, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Square Wave', model:'EVO D 1250', dcV:'12V', gstPrice:6143, mrp:9550, warranty:'3 Years'},
+  {src:'INBT', type:'Inverter', wave:'Square Wave', model:'EVO D 1650', dcV:'24V', gstPrice:7417, mrp:11500, warranty:'3 Years'},
+  // Dongle
+  {src:'INBT', type:'Accessory', wave:'', model:'DONGLE CONNECT WiFi', dcV:'–', gstPrice:118, mrp:2100, warranty:'3 Years'},
+
+  // ── INBT BATTERIES ──
+  {src:'INBT', type:'Battery', model:'ILST 10036 (80Ah)', ah:80, dcV:'–', gstPrice:7853, mrp:10200, warranty:'24+12 Months*'},
+  {src:'INBT', type:'Battery', model:'ILST 12042 (100Ah)', ah:100, dcV:'–', gstPrice:9544, mrp:12300, warranty:'24+18 Months*'},
+  {src:'INBT', type:'Battery', model:'RC 15000 Pro (120Ah)', ah:120, dcV:'–', gstPrice:10213, mrp:13800, warranty:'24+24 Months*'},
+  {src:'INBT', type:'Battery', model:'SC 16060 (135Ah)', ah:135, dcV:'–', gstPrice:11576, mrp:16100, warranty:'36+24 Months*'},
+  {src:'INBT', type:'Battery', model:'ILTJ 18148 (150Ah)', ah:150, dcV:'–', gstPrice:12726, mrp:17900, warranty:'36+12 Months*'},
+  {src:'INBT', type:'Battery', model:'RC 18000ST (150Ah)', ah:150, dcV:'–', gstPrice:11564, mrp:16700, warranty:'18+18 Months*'},
+  {src:'INBT', type:'Battery', model:'RC 18000ST PRO (150Ah)', ah:150, dcV:'–', gstPrice:11869, mrp:17200, warranty:'24+24 Months*'},
+  {src:'INBT', type:'Battery', model:'NEO 18030 (150Ah)', ah:150, dcV:'–', gstPrice:12566, mrp:16200, warranty:'15+15 Months*'},
+  {src:'INBT', type:'Battery', model:'RC 18000 (150Ah)', ah:150, dcV:'–', gstPrice:12697, mrp:16900, warranty:'18+18 Months*'},
+  {src:'INBT', type:'Battery', model:'RC 18000 Pro (150Ah)', ah:150, dcV:'–', gstPrice:12900, mrp:17400, warranty:'24+24 Months*'},
+  {src:'INBT', type:'Battery', model:'PC 18054 PRO (150Ah)', ah:150, dcV:'–', gstPrice:13146, mrp:18000, warranty:'30+24 Months*'},
+  {src:'INBT', type:'Battery', model:'PC 18054 TJ PRO (150Ah)', ah:150, dcV:'–', gstPrice:12154, mrp:17700, warranty:'30+24 Months*'},
+  {src:'INBT', type:'Battery', model:'SC 18060 (150Ah)', ah:150, dcV:'–', gstPrice:13476, mrp:18100, warranty:'36+24 Months*'},
+  {src:'INBT', type:'Battery', model:'ECO 18000 (150Ah)', ah:150, dcV:'–', gstPrice:12699, mrp:17300, warranty:'24+18 Months*'},
+  {src:'INBT', type:'Battery', model:'ILTT 18060 PRO (150Ah)', ah:150, dcV:'–', gstPrice:12922, mrp:18600, warranty:'36+24 Months*'},
+  {src:'INBT', type:'Battery', model:'EC 18060 (150Ah)', ah:150, dcV:'–', gstPrice:13886, mrp:18200, warranty:'36+24 Months*'},
+  {src:'INBT', type:'Battery', model:'LM 18075 (150Ah)', ah:150, dcV:'–', gstPrice:17282, mrp:23900, warranty:'60+15 Months*'},
+  {src:'INBT', type:'Battery', model:'UCTT 18066 (150Ah)', ah:150, dcV:'–', gstPrice:14724, mrp:20400, warranty:'42+24 Months*'},
+  {src:'INBT', type:'Battery', model:'PC 20042 (160Ah)', ah:160, dcV:'–', gstPrice:13412, mrp:17700, warranty:'21+21 Months*'},
+  {src:'INBT', type:'Battery', model:'RC 24000 PRO (180Ah)', ah:180, dcV:'–', gstPrice:15317, mrp:19900, warranty:'24+24 Months*'},
+  {src:'INBT', type:'Battery', model:'ILTT 20060 (160Ah)', ah:160, dcV:'–', gstPrice:14169, mrp:18500, warranty:'30+30 Months*'},
+  {src:'INBT', type:'Battery', model:'ILTT 20066 (160Ah)', ah:160, dcV:'–', gstPrice:14674, mrp:19400, warranty:'36+30 Months*'},
+  {src:'INBT', type:'Battery', model:'ILTT 24060 (180Ah)', ah:180, dcV:'–', gstPrice:17070, mrp:22100, warranty:'36+24 Months*'},
+  {src:'INBT', type:'Battery', model:'UCTT 24066 (180Ah)', ah:180, dcV:'–', gstPrice:17425, mrp:23200, warranty:'42+24 Months*'},
+  {src:'INBT', type:'Battery', model:'RC 25000 (200Ah)', ah:200, dcV:'–', gstPrice:16333, mrp:21100, warranty:'18+18 Months*'},
+  {src:'INBT', type:'Battery', model:'RC 25000 PRO (200Ah)', ah:200, dcV:'–', gstPrice:16569, mrp:21500, warranty:'24+24 Months*'},
+  {src:'INBT', type:'Battery', model:'ILTT 25060 (200Ah)', ah:200, dcV:'–', gstPrice:18313, mrp:23600, warranty:'36+24 Months*'},
+  {src:'INBT', type:'Battery', model:'UCTT 25066 (200Ah)', ah:200, dcV:'–', gstPrice:18830, mrp:24700, warranty:'42+24 Months*'},
+  {src:'INBT', type:'Battery', model:'UCTT 25072 (200Ah)', ah:200, dcV:'–', gstPrice:19375, mrp:25800, warranty:'48+24 Months*'},
+  {src:'INBT', type:'Battery', model:'RC 26000 PRO (220Ah)', ah:220, dcV:'–', gstPrice:18082, mrp:23500, warranty:'24+24 Months*'},
+  {src:'INBT', type:'Battery', model:'ILTT 26060 (220Ah)', ah:220, dcV:'–', gstPrice:19846, mrp:25600, warranty:'36+24 Months*'},
+  {src:'INBT', type:'Battery', model:'UCTT 26066 (220Ah)', ah:220, dcV:'–', gstPrice:20205, mrp:26900, warranty:'42+24 Months*'},
+  {src:'INBT', type:'Battery', model:'UCTT 28066 (250Ah)', ah:250, dcV:'–', gstPrice:22223, mrp:29500, warranty:'42+24 Months*'},
+  {src:'INBT', type:'Battery', model:'ILTT 28060 (250Ah)', ah:250, dcV:'–', gstPrice:21970, mrp:28300, warranty:'36+24 Months*'},
+  {src:'INBT', type:'Battery', model:'UCTT 29072 (260Ah)', ah:260, dcV:'–', gstPrice:22768, mrp:32200, warranty:'48+24 Months*'},
+  {src:'INBT', type:'Battery', model:'ILTT 32060 (300Ah)', ah:300, dcV:'–', gstPrice:25166, mrp:31300, warranty:'36+24 Months*'},
+  {src:'INBT', type:'Battery', model:'ECO 25048 (200Ah)', ah:200, dcV:'–', gstPrice:17399, mrp:22799, warranty:'24+24 Months*'},
+  {src:'INBT', type:'Battery', model:'ECO 25060 (200Ah)', ah:200, dcV:'–', gstPrice:19227, mrp:24999, warranty:'36+24 Months*'},
+  {src:'INBT', type:'Battery', model:'ECO 26060 (220Ah)', ah:220, dcV:'–', gstPrice:20838, mrp:27199, warranty:'36+24 Months*'},
+  {src:'INBT', type:'Battery', model:'ECO 28060 (250Ah)', ah:250, dcV:'–', gstPrice:23070, mrp:29999, warranty:'36+24 Months*'},
+
+  // ── HKVA ──
+  {src:'HKVA', type:'Inverter', series:'HKVA UPS', model:'ECO WATT NEO 2300 (2KVA/24V)', dcV:'24V', gstPrice:9685, mrp:17500, warranty:'3 Years'},
+  {src:'HKVA', type:'Inverter', series:'HKVA UPS', model:'EVO D 2300', dcV:'24V', gstPrice:9685, mrp:17500, warranty:'3 Years'},
+  {src:'HKVA', type:'Inverter', series:'HKVA UPS', model:'EVO S 2300', dcV:'24V', gstPrice:10793, mrp:19500, warranty:'3 Years'},
+  {src:'HKVA', type:'Inverter', series:'HKVA UPS', model:'Eco Volt Neo 2300+ (2KVA/24V)', dcV:'24V', gstPrice:10793, mrp:19500, warranty:'3 Years'},
+  {src:'HKVA', type:'Inverter', series:'HKVA UPS', model:'OPTIMUS 2300+ (2KVA/24V)', dcV:'24V', gstPrice:12536, mrp:20000, warranty:'3 Years'},
+  {src:'HKVA', type:'Inverter', series:'HKVA UPS', model:'OPTIMUS 2800+ (2.5KVA/24V)', dcV:'24V', gstPrice:15242, mrp:25990, warranty:'3 Years'},
+  {src:'HKVA', type:'Inverter', series:'HKVA UPS', model:'OPTIMUS 3500+ (3KVA/24V)', dcV:'24V', gstPrice:17629, mrp:30990, warranty:'3 Years'},
+  {src:'HKVA', type:'Inverter', series:'HKVA UPS', model:'OPTIMUS 3800+ (3.5KVA/36V)', dcV:'36V', gstPrice:18771, mrp:34990, warranty:'3 Years'},
+  {src:'HKVA', type:'Inverter', series:'HKVA UPS', model:'OPTIMUS 4300+ (4KVA/36V)', dcV:'36V', gstPrice:26002, mrp:34490, warranty:'3 Years'},
+  {src:'HKVA', type:'Inverter', series:'HKVA UPS', model:'OPTIMUS 4500+ (4KVA/48V)', dcV:'48V', gstPrice:22094, mrp:39990, warranty:'3 Years'},
+  {src:'HKVA', type:'Inverter', series:'HKVA UPS', model:'OPTIMUS 6000+ (5KVA/48V)', dcV:'48V', gstPrice:31269, mrp:49990, warranty:'3 Years'},
+  {src:'HKVA', type:'Inverter', series:'HKVA UPS', model:'OPTIMUS 6500+ (5.5KVA/72V)', dcV:'72V', gstPrice:31541, mrp:59990, warranty:'3 Years'},
+  {src:'HKVA', type:'Inverter', series:'HKVA UPS', model:'I-CRUZE 7000+ (6KVA/96V)', dcV:'96V', gstPrice:46425, mrp:71990, warranty:'3 Years'},
+  {src:'HKVA', type:'Inverter', series:'HKVA UPS', model:'OPTIMUS 8000+ (7.5KVA/96V)', dcV:'96V', gstPrice:63118, mrp:99990, warranty:'3 Years'},
+  {src:'HKVA', type:'Inverter', series:'HKVA UPS', model:'I-CRUZE 9000+ (7.5KVA/120V)', dcV:'120V', gstPrice:58951, mrp:85990, warranty:'3 Years'},
+  {src:'HKVA', type:'Inverter', series:'HKVA UPS', model:'OPTIMUS 11000+ (10KVA/120V)', dcV:'120V', gstPrice:83258, mrp:109990, warranty:'3 Years'},
+  {src:'HKVA', type:'Accessory', series:'HKVA', model:'SYNC-X WI-FI DATA LOGGER', dcV:'–', gstPrice:118, mrp:4200, warranty:'No Warranty'},
+
+  // ── HELIOS Li-Ion ──
+  {src:'HELIOS', type:'Helios Li-Ion', series:'Helios Series', model:'BATT LI-ION HELIOS HL 12X100 12.8V 100AH', dcV:'12.8V', gstPrice:22923, mrp:null, warranty:'5 Years or 2000 Cycles'},
+  {src:'HELIOS', type:'Helios Li-Ion', series:'Helios Series', model:'BATT LI-ION HELIOS HL 25X100 25.6V 100AH', dcV:'25.6V', gstPrice:39045, mrp:null, warranty:'5 Years or 2000 Cycles'},
+  {src:'HELIOS', type:'Helios Li-Ion', series:'Helios Series', model:'BATT LI-ION HELIOS HL 51X100 51.2V 100AH', dcV:'51.2V', gstPrice:76012, mrp:null, warranty:'5 Years or 2000 Cycles'},
+
+  // ── SOLAR INVERTERS ──
+  // NXG e Series
+  {src:'SOLAR', type:'Solar Inverter', series:'NXG e Series (PWM)', model:'NXG 850e', dcV:'12V', gstPrice:5311, mrp:7000, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'NXG e Series (PWM)', model:'NXG 1150e', dcV:'12V', gstPrice:6773, mrp:10000, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'NXG e Series (PWM)', model:'NXG 1450e', dcV:'12V', gstPrice:8188, mrp:12000, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'NXG e Series (PWM)', model:'NXG 1850e', dcV:'24V', gstPrice:9651, mrp:14000, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'NXG e Series (PWM)', model:'NXG 2350', dcV:'24V', gstPrice:12234, mrp:24500, warranty:'3 Years'},
+  // NXG PRO Series
+  {src:'SOLAR', type:'Solar Inverter', series:'NXG PRO Series (MPPT)', model:'SOLAR S/W UPS NXG PRO e 1KVA/12V', dcV:'12V', gstPrice:11487, mrp:17500, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'NXG PRO Series (MPPT)', model:'S/W UPS SOLAR NXG PRO e 1KVA/24V', dcV:'24V', gstPrice:11487, mrp:18000, warranty:'3 Years'},
+  // Solarverter Series
+  {src:'SOLAR', type:'Solar Inverter', series:'Solarverter Series (PWM PCU)', model:'SOLARVERTER 3KVA/48V', dcV:'48V', gstPrice:20602, mrp:30000, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'Solarverter Series (PWM PCU)', model:'SOLARVERTER 5KVA/48V (PWM)', dcV:'48V', gstPrice:38697, mrp:60000, warranty:'3 Years'},
+  // NXP Series
+  {src:'SOLAR', type:'Solar Inverter', series:'NXP Series (PWM)', model:'NXP 3500', dcV:'24V', gstPrice:17331, mrp:25000, warranty:'3 Years'},
+  // NXP Pro
+  {src:'SOLAR', type:'Solar Inverter', series:'NXP Pro (MPPT)', model:'NXP PRO 3500', dcV:'24V', gstPrice:28472, mrp:50000, warranty:'3 Years'},
+  // Solarverter PRO
+  {src:'SOLAR', type:'Solar Inverter', series:'Solarverter PRO Series (MPPT PCU)', model:'SOLARVERTER PRO 2KVA/24V eco', dcV:'24V', gstPrice:20748, mrp:40000, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'Solarverter PRO Series (MPPT PCU)', model:'SOLARVERTER PRO 3KVA/36V Eco', dcV:'36V', gstPrice:30080, mrp:60000, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'Solarverter PRO Series (MPPT PCU)', model:'SOLARVERTER PRO 3.5KVA/48V', dcV:'48V', gstPrice:38836, mrp:70000, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'Solarverter PRO Series (MPPT PCU)', model:'SOLARVERTER PRO 5KVA/48V', dcV:'48V', gstPrice:51443, mrp:100000, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'Solarverter PRO Series (MPPT PCU)', model:'SOLARVERTER PRO 6KVA/96V', dcV:'96V', gstPrice:57442, mrp:120000, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'Solarverter PRO Series (MPPT PCU)', model:'SOLARVERTER PRO 7.5KVA/96V ECO', dcV:'96V', gstPrice:78130, mrp:150000, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'Solarverter PRO Series (MPPT PCU)', model:'SOLARVERTER PRO 10.1KVA/120V ECO', dcV:'120V', gstPrice:100684, mrp:200000, warranty:'3 Years'},
+  // NXT+
+  {src:'SOLAR', type:'Solar Inverter', series:'NXT+ Series (MPPT PCU)', model:'PCU NXT+ 7.5 KVA/96V', dcV:'96V', gstPrice:70606, mrp:149900, warranty:'3 Years'},
+  // Solar NXE PRO
+  {src:'SOLAR', type:'Solar Inverter', series:'Solar NXE PRO Series', model:'SOLAR NXE PRO 15KVA/240V', dcV:'240V', gstPrice:152930, mrp:299550, warranty:'3 Years'},
+  // Hybrid TX
+  {src:'SOLAR', type:'Solar Inverter', series:'Hybrid TX Series', model:'HYBRID TX 3KVA + Dongle (PV 3KW)', dcV:'48V', gstPrice:38600, mrp:82000, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'Hybrid TX Series', model:'HYBRID TX 4KVA + Dongle (PV 4KW)', dcV:'48V', gstPrice:50440, mrp:98000, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'Hybrid TX Series', model:'HYBRID TX 5KVA + Dongle (PV 5KW)', dcV:'48V', gstPrice:54097, mrp:110000, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'Hybrid TX Series', model:'HYBRID TX 3.75KVA/48V', dcV:'48V', gstPrice:38600, mrp:82000, warranty:'3 Years'},
+  // Hybrid HF 1-phase
+  {src:'SOLAR', type:'Solar Inverter', series:'Hybrid HF (1-phase)', model:'SOLAR HYBRID INV HF NXH 130 A48 3kW', dcV:'48V', gstPrice:78795, mrp:138000, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'Hybrid HF (1-phase)', model:'SOLAR HYBRID INV HF NXH 150 A48 5KW', dcV:'48V', gstPrice:93976, mrp:165000, warranty:'3 Years'},
+  // Hybrid HF 3-phase
+  {src:'SOLAR', type:'Solar Inverter', series:'Hybrid HF (3-phase)', model:'SOLAR HYBRID INV HF NXH 308 A 8KW', dcV:'120V-600V', gstPrice:203447, mrp:357000, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'Hybrid HF (3-phase)', model:'SOLAR HYBRID INV HF NXH 310 A 10KW', dcV:'120V-600V', gstPrice:217688, mrp:382000, warranty:'3 Years'},
+  {src:'SOLAR', type:'Solar Inverter', series:'Hybrid HF (3-phase)', model:'SOLAR HYBRID INV HF NXH 312 A 12KW', dcV:'120V-600V', gstPrice:226835, mrp:402000, warranty:'3 Years'},
+
+  // SOLAR CHARGE CONTROLLERS
+  {src:'SOLAR', type:'Charge Controller', series:'Solar Charge Controllers', model:'SCC 1206', dcV:'–', gstPrice:365, mrp:745, warranty:'3 Years'},
+  {src:'SOLAR', type:'Charge Controller', series:'Solar Charge Controllers', model:'SCC 1210', dcV:'–', gstPrice:514, mrp:1120, warranty:'3 Years'},
+  {src:'SOLAR', type:'Charge Controller', series:'Solar Charge Controllers', model:'SCC 1220', dcV:'–', gstPrice:772, mrp:2150, warranty:'3 Years'},
+  {src:'SOLAR', type:'Charge Controller', series:'Solar Charge Controllers', model:'SCC 1206e', dcV:'–', gstPrice:365, mrp:745, warranty:'3 Years'},
+  {src:'SOLAR', type:'Charge Controller', series:'Solar Charge Controllers', model:'SCC 1210e', dcV:'–', gstPrice:514, mrp:1120, warranty:'3 Years'},
+  {src:'SOLAR', type:'Charge Controller', series:'Solar Charge Controllers', model:'SCC 1220e', dcV:'–', gstPrice:772, mrp:2150, warranty:'3 Years'},
+  {src:'SOLAR', type:'Charge Controller', series:'Solar Charge Controllers', model:'SCC 1250', dcV:'–', gstPrice:1105, mrp:5150, warranty:'3 Years'},
+];
+
+// ======================================================
+//  SOURCE CONFIG
+// ======================================================
+const sourceConfig = {
+  INBT:   { label: 'INBT – Inverter & Battery Price List', dotClass: 'src-inbt' },
+  HKVA:   { label: 'HKVA – High KVA Price List (South)', dotClass: 'src-hkva' },
+  HELIOS: { label: 'HELIOS – Li-Ion Battery Price List',  dotClass: 'src-helios' },
+  SOLAR:  { label: 'SOLAR – Solar Price List (PAN India)',dotClass: 'src-solar' },
+};
+
+const typeClass = {
+  'Inverter':          'type-inverter',
+  'Battery':           'type-battery',
+  'Solar Inverter':    'type-solar-inverter',
+  'Solar Battery':     'type-solar-battery',
+  'Solar Panel':       'type-solar-panel',
+  'Charge Controller': 'type-charge-controller',
+  'Helios Li-Ion':     'type-helios',
+  'Combo':             'type-combo',
+  'Accessory':         'type-accessory',
+};
+
+// ======================================================
+//  FILTER & RENDER
+// ======================================================
+let currentProduct = null;
+
+function fmt(n) {
+  return '₹' + Number(n).toLocaleString('en-IN');
+}
+
+function applyFilters() {
+  const q = document.getElementById('searchInput').value.toLowerCase().trim();
+  const src = document.getElementById('filterSource').value;
+  const typ = document.getElementById('filterType').value;
+  const maxP = parseInt(document.getElementById('filterPrice').value) || Infinity;
+
+  const filtered = products.filter(p => {
+    const search = [p.model, p.type, p.series || '', p.wave || '', p.src, p.dcV || ''].join(' ').toLowerCase();
+    return (!q || search.includes(q))
+      && (!src || p.src === src)
+      && (!typ || p.type === typ)
+      && (p.gstPrice <= maxP);
+  });
+
+  renderResults(filtered);
+}
+
+function renderResults(list) {
+  const container = document.getElementById('resultsContainer');
+
+  // Update counts
+  const counts = {INBT:0, HKVA:0, HELIOS:0, SOLAR:0};
+  list.forEach(p => counts[p.src]++);
+  Object.keys(counts).forEach(k => {
+    document.getElementById('cnt-' + k).textContent = counts[k];
+  });
+  document.getElementById('totalCount').textContent = list.length;
+
+  if (list.length === 0) {
+    container.innerHTML = `<div class="no-results">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <p>No products match your search.</p>
+    </div>`;
+    return;
+  }
+
+  // Group by source
+  const bySource = {};
+  list.forEach(p => {
+    if (!bySource[p.src]) bySource[p.src] = [];
+    bySource[p.src].push(p);
+  });
+
+  let html = '<div class="table-wrap">';
+
+  ['INBT','HKVA','HELIOS','SOLAR'].forEach(src => {
+    if (!bySource[src]) return;
+    const cfg = sourceConfig[src];
+    html += `<div class="source-section">
+      <div class="source-header">
+        <span class="source-dot ${cfg.dotClass}"></span>
+        <span class="source-name">${cfg.label}</span>
+        <span class="source-count">${bySource[src].length} products</span>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Model</th>
+            <th>Type</th>
+            <th>DC Voltage</th>
+            <th>GST Price</th>
+            <th>MRP</th>
+            <th>Warranty</th>
+            <th>Generate Message</th>
+          </tr>
+        </thead>
+        <tbody>`;
+
+    bySource[src].forEach((p, i) => {
+      const idx = products.indexOf(p);
+      const tc = typeClass[p.type] || 'type-accessory';
+      const seriesLine = (p.series || p.wave) ? `<div class="model-series">${p.series || p.wave}</div>` : '';
+      const mrpLine = p.mrp ? `<div class="price-mrp">${fmt(p.mrp)}</div>` : '<div class="price-mrp">—</div>';
+      html += `<tr id="row-${idx}" onclick="selectProduct(${idx})">
+        <td><div class="model-name">${p.model}</div>${seriesLine}</td>
+        <td><span class="type-badge ${tc}">${p.type}</span></td>
+        <td style="color:var(--muted);font-size:13px">${p.dcV || '–'}</td>
+        <td><div class="price-gst">${fmt(p.gstPrice)}</div>${mrpLine}</td>
+        <td style="color:var(--muted);font-size:13px;text-decoration:line-through">${p.mrp ? fmt(p.mrp) : '—'}</td>
+        <td><div class="warranty-info">${p.warranty}</div></td>
+        <td style="text-align:center">
+          <button class="btn-msg" onclick="event.stopPropagation(); generateMessage(${idx})">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            Message
+          </button>
+        </td>
+      </tr>`;
+    });
+
+    html += `</tbody></table></div>`;
+  });
+
+  html += '</div>';
+  container.innerHTML = html;
+}
+
+function selectProduct(idx) {
+  // remove previous active
+  document.querySelectorAll('tbody tr').forEach(r => r.classList.remove('active'));
+  const row = document.getElementById('row-' + idx);
+  if (row) row.classList.add('active');
+  generateMessage(idx);
+}
+
+function generateMessage(idx) {
+  const p = products[idx];
+  currentProduct = p;
+
+  const panel = document.getElementById('messagePanel');
+  const msgEl = document.getElementById('messageText');
+
+  let msg = `*Luminous ${p.model}*\n\n`;
+  msg += `📦 Product: ${p.model}\n`;
+  msg += `🏷️ Type: ${p.type}`;
+  if (p.series) msg += ` – ${p.series}`;
+  msg += `\n`;
+  if (p.dcV && p.dcV !== '–') msg += `⚡ DC Voltage: ${p.dcV}\n`;
+  msg += `💰 Price (GST Incl.): ${fmt(p.gstPrice)}\n`;
+  msg += `🛡️ Warranty: ${p.warranty}\n`;
+  msg += `\n_Price is inclusive of 18% GST. Subject to change without notice._`;
+
+  msgEl.textContent = msg;
+  panel.classList.add('visible');
+
+  // Scroll to panel
+  panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+  // Reset copy button
+  const btn = document.getElementById('copyBtn');
+  btn.textContent = '';
+  btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy Message';
+  btn.classList.remove('copied');
+}
+
+function copyMessage() {
+  const text = document.getElementById('messageText').textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.getElementById('copyBtn');
+    btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy Message';
+      btn.classList.remove('copied');
+    }, 2500);
+  });
+}
+
+function resetFilters() {
+  document.getElementById('searchInput').value = '';
+  document.getElementById('filterSource').value = '';
+  document.getElementById('filterType').value = '';
+  document.getElementById('filterPrice').value = '';
+  applyFilters();
+}
+
+// Initial render
+applyFilters();
