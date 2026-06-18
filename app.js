@@ -2307,18 +2307,19 @@ const DATA = {
 
 const sourceOrder = ['INBT', 'HKVA', 'HELIOS', 'SOLAR', 'GTI'];
 const sourceConfig = DATA.sources;
-const productStates = new Map(); // key -> { discount: number }
 let currentProductKey = null;
 let currentMessageProductKey = null;
 let messageDirty = false;
-
+let globalDiscount = 0;
 function formatINR(value) {
   const n = Math.round(Number(value) || 0);
   return new Intl.NumberFormat('en-IN').format(n);
 }
 
 function normalizeDiscount(value) {
-  const n = Number(value);
+  const raw = String(value ?? '').trim();
+  if (!raw) return 0;
+  const n = Number(raw);
   if (!Number.isFinite(n)) return 0;
   return Math.trunc(n);
 }
@@ -2340,9 +2341,47 @@ function productKey(index) {
   return `p-${index}`;
 }
 
-function getProductState(key) {
-  if (!productStates.has(key)) productStates.set(key, { discount: 0 });
-  return productStates.get(key);
+function getGlobalDiscount() {
+  const el = document.getElementById('globalDiscount');
+  if (!el) return globalDiscount;
+  const raw=el.value.trim();
+  if(raw==='-'||raw==='+') return 0;
+  const parsed = normalizeDiscount(raw);
+  globalDiscount = parsed;
+  return parsed;
+}
+
+function setGlobalDiscount(value) {
+  globalDiscount = normalizeDiscount(value);
+  const el = document.getElementById('globalDiscount');
+  if (el) el.value = String(globalDiscount);
+  try {
+    localStorage.setItem('luminousGlobalDiscount', String(globalDiscount));
+  } catch (err) {
+    console.warn('Could not save global discount', err);
+  }
+}
+
+function loadGlobalDiscount() {
+  try {
+    const rawSaved = localStorage.getItem('luminousGlobalDiscountRaw');
+    if(rawSaved !== null){
+      const el=document.getElementById('globalDiscount');
+      if(el) el.value = rawSaved;
+      globalDiscount = normalizeDiscount(rawSaved);
+      return;
+    }
+    const saved = localStorage.getItem('luminousGlobalDiscount');
+    if (saved !== null) {
+      globalDiscount = normalizeDiscount(saved);
+      return;
+    }
+  } catch (err) {
+    console.warn('Could not load global discount', err);
+  }
+  globalDiscount = 0;
+  const el = document.getElementById('globalDiscount');
+  if (el) el.value = '0';
 }
 
 function productSearchBlob(p) {
@@ -2351,42 +2390,9 @@ function productSearchBlob(p) {
     .toLowerCase();
 }
 
-function loadStateFromStorage() {
-  try {
-    const raw = localStorage.getItem('luminousDiscountState');
-    if (!raw) return;
-    const parsed = JSON.parse(raw);
-    if (parsed && typeof parsed === 'object') {
-      Object.entries(parsed).forEach(([key, value]) => {
-        const discount = normalizeDiscount(value?.discount ?? value);
-        productStates.set(key, { discount });
-      });
-    }
-  } catch (err) {
-    console.warn('Could not load saved discount state', err);
-  }
+function currentAdjustedPrice(p) {
+  return applyDiscount(p.gstPrice, getGlobalDiscount());
 }
-
-function saveStateToStorage() {
-  try {
-    const out = {};
-    for (const [key, value] of productStates.entries()) {
-      out[key] = { discount: normalizeDiscount(value.discount) };
-    }
-    localStorage.setItem('luminousDiscountState', JSON.stringify(out));
-  } catch (err) {
-    console.warn('Could not save discount state', err);
-  }
-}
-
-function currentDiscount(key) {
-  return normalizeDiscount(getProductState(key).discount);
-}
-
-function currentAdjustedPrice(p, key) {
-  return applyDiscount(p.gstPrice, currentDiscount(key));
-}
-
 function updateCounts(list) {
   const counts = { INBT: 0, HKVA: 0, HELIOS: 0, SOLAR: 0, GTI: 0 };
   list.forEach((p) => {
@@ -2458,7 +2464,6 @@ function renderResults(list) {
               <th>Model</th>
               <th>Type</th>
               <th>DC Voltage</th>
-              <th>Discount %</th>
               <th>GST Price</th>
               <th>MRP</th>
               <th>Warranty</th>
@@ -2471,8 +2476,8 @@ function renderResults(list) {
       const typeClassName = `type-${String(p.type || '').toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
       const seriesText = p.series || p.wave || '';
       const seriesHtml = seriesText ? `<div class="model-series">${seriesText}</div>` : '';
-      const discount = currentDiscount(key);
-      const adjustedPrice = currentAdjustedPrice(p, key);
+      const discount = getGlobalDiscount();
+      const adjustedPrice = currentAdjustedPrice(p);
       const priceHtml = discount === 0
         ? `<div class="price-gst">₹${formatINR(adjustedPrice)}</div>`
         : `<div class="price-gst">₹${formatINR(adjustedPrice)} <span class="price-delta">${discount > 0 ? '+' : ''}${discount}%</span></div><div class="price-base">Base ₹${formatINR(p.gstPrice)}</div>`;
@@ -2485,13 +2490,6 @@ function renderResults(list) {
         </td>
         <td><span class="type-badge ${typeClassName}">${p.type}</span></td>
         <td>${p.dcV && p.dcV !== '–' ? p.dcV : '—'}</td>
-        <td>
-          <div class="discount-wrap">
-            <input type="number" class="discount-input" min="-99" max="99" step="1" value="${discount}" aria-label="Discount percent for ${p.model}"
-              oninput="handleDiscountInput('${key}', this.value)">
-            <div class="discount-hint">+2 = I2, -2 = D2</div>
-          </div>
-        </td>
         <td>${priceHtml}</td>
         <td>${mrpHtml}</td>
         <td><div class="warranty-info">${p.warranty || '—'}</div></td>
@@ -2516,33 +2514,41 @@ function renderResults(list) {
   }
 }
 
-function handleDiscountInput(key, value) {
-  const state = getProductState(key);
-  state.discount = normalizeDiscount(value);
-  saveStateToStorage();
+function handleGlobalDiscountInput(value) {
+  try { localStorage.setItem('luminousGlobalDiscountRaw', value); } catch(e){}
+  globalDiscount = normalizeDiscount(value);
   renderResults(getFilteredProducts());
 
-  if (currentMessageProductKey === key && !messageDirty) {
-    generateMessage(key, { overwrite: true });
+  if (currentMessageProductKey && !messageDirty) {
+    const currentIdx = Number(String(currentProductKey).replace(/^p-/, ''));
+    const p = DATA.products[currentIdx];
+    if (p) generateMessage(currentProductKey, { overwrite: true });
   }
 }
 
-function buildMessage(p, key) {
-  const discount = currentDiscount(key);
-  const adjustedPrice = currentAdjustedPrice(p, key);
+function buildMessage(p) {
+  const discount = getGlobalDiscount();
+  const adjustedPrice = currentAdjustedPrice(p);
   const suffix = discountSuffix(discount);
 
-  let msg = `*Luminous ${p.model}*\n\n`;
-  msg += `📦 Product: ${p.model}\n`;
+  let msg = `*Luminous ${p.model}*
+
+`;
+  msg += `📦 Product: ${p.model}
+`;
   msg += `🏷️ Type: ${p.type}`;
   if (p.series) msg += ` – ${p.series}`;
   else if (p.wave) msg += ` – ${p.wave}`;
-  msg += `\n`;
-  if (p.dcV && p.dcV !== '–') msg += `⚡ DC Voltage: ${p.dcV}\n`;
-  msg += `💰 Price (GST Incl.): ₹${formatINR(adjustedPrice)}\n`;
-  msg += `🛡️ Warranty: ${p.warranty || '—'}\n`;
-  msg += `\n_Price is inclusive of 18% GST. Subject to change without notice._`;
-  if (suffix) msg += `\n${suffix.trim()}`;
+  msg += `
+`;
+  if (p.dcV && p.dcV !== '–') msg += `⚡ DC Voltage: ${p.dcV}
+`;
+  msg += `💰 Price (GST Incl.): ₹${formatINR(adjustedPrice)}
+`;
+  msg += `🛡️ Warranty: ${p.warranty || '—'}
+`;
+  msg += `
+_Price is inclusive of 18% GST. Subject to change without notice.${suffix.trim()?(' '+suffix.trim()):''}_`;
 
   return msg;
 }
@@ -2567,7 +2573,7 @@ function generateMessage(key, options = {}) {
   panel.classList.add('visible');
 
   if (options.overwrite !== false || !messageDirty) {
-    setMessageValue(buildMessage(p, key));
+    setMessageValue(buildMessage(p));
     messageDirty = false;
   }
 
@@ -2614,21 +2620,28 @@ function initMessageEditor() {
   textarea.addEventListener('input', () => {
     messageDirty = true;
   });
+
+  const discountInput = document.getElementById('globalDiscount');
+  if (discountInput) {
+    discountInput.addEventListener('input', (e) => {
+      handleGlobalDiscountInput(e.target.value);
+    });
+  }
 }
 
 function init() {
-  loadStateFromStorage();
+  loadGlobalDiscount();
   initMessageEditor();
   applyFilters();
   document.getElementById('messagePanel').classList.add('visible');
-  document.getElementById('messageText').value = 'Select a product and click Message to generate an editable draft here.\n\nAny discount code will appear at the end as I1 / D1.';
+  document.getElementById('messageText').value = 'Select a product and click Message to generate an editable draft here.';
 }
 
 window.applyFilters = applyFilters;
 window.resetFilters = resetFilters;
 window.copyMessage = copyMessage;
 window.generateMessage = generateMessage;
-window.handleDiscountInput = handleDiscountInput;
+window.handleGlobalDiscountInput = handleGlobalDiscountInput;
 window.selectProduct = selectProduct;
 
 document.addEventListener('DOMContentLoaded', init);

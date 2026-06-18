@@ -48,6 +48,10 @@
     <input type="text" id="searchInput" placeholder="Search by model, series, type…" oninput="applyFilters()">
   </div>
   <div class="filter-group">
+    <span class="filter-label">Global Discount</span>
+    <input type="text" id="globalDiscount" placeholder="+2 or -2" value="0"  autocomplete="off">
+  </div>
+  <div class="filter-group">
     <span class="filter-label">Price List</span>
     <select id="filterSource" onchange="applyFilters()">
       <option value="">All Sources</option>
