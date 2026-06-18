@@ -22,8 +22,7 @@
   </div>
 </header>
 
-<!-- MESSAGE PANEL (placed before table for top visibility) -->
-<div class="message-panel" id="messagePanel">
+<div class="message-panel visible" id="messagePanel">
   <div class="msg-header">
     <div class="msg-title">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
@@ -35,10 +34,10 @@
     </button>
   </div>
   <div class="msg-body">
-    <div class="msg-text" id="messageText"></div>
+    <textarea class="msg-text" id="messageText" spellcheck="false" placeholder="Select a product and click Message. You can edit this text before copying or sending."></textarea>
     <div class="msg-note">
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
-      Message uses GST-included dealer price. MRP is not included in the message.
+      Edit the message directly before copying or sending. Discount uses +N for increase and -N for decrease.
     </div>
   </div>
 </div>
@@ -56,6 +55,7 @@
       <option value="HKVA">HKVA – High KVA</option>
       <option value="HELIOS">HELIOS – Li-Ion Batteries</option>
       <option value="SOLAR">SOLAR – Solar Products</option>
+      <option value="GTI">GTI – Grid Tie Inverters</option>
     </select>
   </div>
   <div class="filter-group">
@@ -69,8 +69,9 @@
       <option value="Solar Panel">Solar Panel</option>
       <option value="Charge Controller">Charge Controller</option>
       <option value="Helios Li-Ion">Helios Li-Ion</option>
-      <option value="Combo">Combo</option>
+      <option value="Grid Tie Inverter">Grid Tie Inverter</option>
       <option value="Accessory">Accessory</option>
+      <option value="Combo">Combo</option>
     </select>
   </div>
   <div class="filter-group">
@@ -89,10 +90,11 @@
 </div>
 
 <div class="stats-bar">
-  <div class="stat-item"><span class="dot src-inbt"></span> <strong id="cnt-INBT">0</strong> Inverter/Battery</div>
-  <div class="stat-item"><span class="dot src-hkva"></span> <strong id="cnt-HKVA">0</strong> HKVA</div>
-  <div class="stat-item"><span class="dot src-helios"></span> <strong id="cnt-HELIOS">0</strong> Helios</div>
-  <div class="stat-item"><span class="dot src-solar"></span> <strong id="cnt-SOLAR">0</strong> Solar</div>
+  <div class="stat-item"><span class="dot" style="background:#3b82f6"></span> <strong id="cnt-INBT">0</strong> Inverter/Battery</div>
+  <div class="stat-item"><span class="dot" style="background:#10b981"></span> <strong id="cnt-HKVA">0</strong> HKVA</div>
+  <div class="stat-item"><span class="dot" style="background:#ef4444"></span> <strong id="cnt-HELIOS">0</strong> Helios</div>
+  <div class="stat-item"><span class="dot" style="background:#f59e0b"></span> <strong id="cnt-SOLAR">0</strong> Solar</div>
+  <div class="stat-item"><span class="dot" style="background:#a855f7"></span> <strong id="cnt-GTI">0</strong> GTI</div>
   <div class="stat-item" style="margin-left:auto; color:var(--text)"><strong id="totalCount">0</strong>&nbsp;results</div>
 </div>
 
