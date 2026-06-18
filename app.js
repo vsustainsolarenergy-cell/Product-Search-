@@ -965,7 +965,7 @@ const DATA = {
     {
       "src": "SOLAR",
       "type": "Solar Inverter",
-      "series": "NXG e Series (PWM)",
+      "series": "NXG e Series (PWM Solar Inverters)",
       "model": "NXG 850e",
       "dcV": "12V",
       "gstPrice": 5311,
@@ -975,7 +975,7 @@ const DATA = {
     {
       "src": "SOLAR",
       "type": "Solar Inverter",
-      "series": "NXG e Series (PWM)",
+      "series": "NXG e Series (PWM Solar Inverters)",
       "model": "NXG 1150e",
       "dcV": "12V",
       "gstPrice": 6773,
@@ -985,7 +985,7 @@ const DATA = {
     {
       "src": "SOLAR",
       "type": "Solar Inverter",
-      "series": "NXG e Series (PWM)",
+      "series": "NXG e Series (PWM Solar Inverters)",
       "model": "NXG 1450e",
       "dcV": "12V",
       "gstPrice": 8188,
@@ -995,7 +995,7 @@ const DATA = {
     {
       "src": "SOLAR",
       "type": "Solar Inverter",
-      "series": "NXG e Series (PWM)",
+      "series": "NXG e Series (PWM Solar Inverters)",
       "model": "NXG 1850e",
       "dcV": "24V",
       "gstPrice": 9651,
@@ -1005,7 +1005,7 @@ const DATA = {
     {
       "src": "SOLAR",
       "type": "Solar Inverter",
-      "series": "NXG e Series (PWM)",
+      "series": "NXG e Series (PWM Solar Inverters)",
       "model": "NXG 2350",
       "dcV": "24V",
       "gstPrice": 12234,
@@ -1015,7 +1015,7 @@ const DATA = {
     {
       "src": "SOLAR",
       "type": "Solar Inverter",
-      "series": "NXG PRO Series (MPPT)",
+      "series": "NXG PRO Series (MPPT Solar Inverters)",
       "model": "SOLAR S/W UPS NXG PRO e 1KVA/12V",
       "dcV": "12V",
       "gstPrice": 11487,
@@ -1025,7 +1025,7 @@ const DATA = {
     {
       "src": "SOLAR",
       "type": "Solar Inverter",
-      "series": "NXG PRO Series (MPPT)",
+      "series": "NXG PRO Series (MPPT Solar Inverters)",
       "model": "S/W UPS SOLAR NXG PRO e 1KVA/24V",
       "dcV": "24V",
       "gstPrice": 11487,
@@ -1035,7 +1035,7 @@ const DATA = {
     {
       "src": "SOLAR",
       "type": "Solar Inverter",
-      "series": "Solarverter Series (PWM PCU)",
+      "series": "Solarverter Series (PWM Solar PCUs)",
       "model": "SOLARVERTER 3KVA/48V",
       "dcV": "48V",
       "gstPrice": 20602,
@@ -1045,7 +1045,7 @@ const DATA = {
     {
       "src": "SOLAR",
       "type": "Solar Inverter",
-      "series": "Solarverter Series (PWM PCU)",
+      "series": "Solarverter Series (PWM Solar PCUs)",
       "model": "SOLARVERTER 5KVA/48V (PWM)",
       "dcV": "48V",
       "gstPrice": 38697,
@@ -1075,7 +1075,7 @@ const DATA = {
     {
       "src": "SOLAR",
       "type": "Solar Inverter",
-      "series": "Solarverter PRO Series (MPPT PCU)",
+      "series": "Solarverter PRO Series (MPPT Solar PCUs)",
       "model": "SOLARVERTER PRO 2KVA/24V eco",
       "dcV": "24V",
       "gstPrice": 20748,
@@ -1085,7 +1085,7 @@ const DATA = {
     {
       "src": "SOLAR",
       "type": "Solar Inverter",
-      "series": "Solarverter PRO Series (MPPT PCU)",
+      "series": "Solarverter PRO Series (MPPT Solar PCUs)",
       "model": "SOLARVERTER PRO 3KVA/36V Eco",
       "dcV": "36V",
       "gstPrice": 30080,
@@ -1095,7 +1095,7 @@ const DATA = {
     {
       "src": "SOLAR",
       "type": "Solar Inverter",
-      "series": "Solarverter PRO Series (MPPT PCU)",
+      "series": "Solarverter PRO Series (MPPT Solar PCUs)",
       "model": "SOLARVERTER PRO 3.5KVA/48V",
       "dcV": "48V",
       "gstPrice": 38836,
@@ -1105,7 +1105,7 @@ const DATA = {
     {
       "src": "SOLAR",
       "type": "Solar Inverter",
-      "series": "Solarverter PRO Series (MPPT PCU)",
+      "series": "Solarverter PRO Series (MPPT Solar PCUs)",
       "model": "SOLARVERTER PRO 5KVA/48V",
       "dcV": "48V",
       "gstPrice": 51443,
@@ -1115,7 +1115,7 @@ const DATA = {
     {
       "src": "SOLAR",
       "type": "Solar Inverter",
-      "series": "Solarverter PRO Series (MPPT PCU)",
+      "series": "Solarverter PRO Series (MPPT Solar PCUs)",
       "model": "SOLARVERTER PRO 6KVA/96V",
       "dcV": "96V",
       "gstPrice": 57442,
@@ -1125,7 +1125,7 @@ const DATA = {
     {
       "src": "SOLAR",
       "type": "Solar Inverter",
-      "series": "Solarverter PRO Series (MPPT PCU)",
+      "series": "Solarverter PRO Series (MPPT Solar PCUs)",
       "model": "SOLARVERTER PRO 7.5KVA/96V ECO",
       "dcV": "96V",
       "gstPrice": 78130,
@@ -1135,7 +1135,7 @@ const DATA = {
     {
       "src": "SOLAR",
       "type": "Solar Inverter",
-      "series": "Solarverter PRO Series (MPPT PCU)",
+      "series": "Solarverter PRO Series (MPPT Solar PCUs)",
       "model": "SOLARVERTER PRO 10.1KVA/120V ECO",
       "dcV": "120V",
       "gstPrice": 100684,
@@ -1145,7 +1145,7 @@ const DATA = {
     {
       "src": "SOLAR",
       "type": "Solar Inverter",
-      "series": "NXT+ Series (MPPT PCU)",
+      "series": "NXT+ Series (MPPT Solar PCUs)",
       "model": "PCU NXT+ 7.5 KVA/96V",
       "dcV": "96V",
       "gstPrice": 70606,
@@ -1164,8 +1164,8 @@ const DATA = {
     },
     {
       "src": "SOLAR",
-      "type": "Solar Inverter",
-      "series": "Hybrid TX Series",
+      "type": "Combo",
+      "series": "Hybrid TX Series (Hybrid Inverters)",
       "model": "HYBRID TX 3KVA + Dongle (PV 3KW)",
       "dcV": "48V",
       "gstPrice": 38600,
@@ -1174,8 +1174,8 @@ const DATA = {
     },
     {
       "src": "SOLAR",
-      "type": "Solar Inverter",
-      "series": "Hybrid TX Series",
+      "type": "Combo",
+      "series": "Hybrid TX Series (Hybrid Inverters)",
       "model": "HYBRID TX 4KVA + Dongle (PV 4KW)",
       "dcV": "48V",
       "gstPrice": 50440,
@@ -1184,8 +1184,8 @@ const DATA = {
     },
     {
       "src": "SOLAR",
-      "type": "Solar Inverter",
-      "series": "Hybrid TX Series",
+      "type": "Combo",
+      "series": "Hybrid TX Series (Hybrid Inverters)",
       "model": "HYBRID TX 5KVA + Dongle (PV 5KW)",
       "dcV": "48V",
       "gstPrice": 54097,
@@ -1194,8 +1194,8 @@ const DATA = {
     },
     {
       "src": "SOLAR",
-      "type": "Solar Inverter",
-      "series": "Hybrid TX Series",
+      "type": "Combo",
+      "series": "Hybrid TX Series (Hybrid Inverters)",
       "model": "HYBRID TX 3.75KVA/48V",
       "dcV": "48V",
       "gstPrice": 38600,
@@ -1204,8 +1204,8 @@ const DATA = {
     },
     {
       "src": "SOLAR",
-      "type": "Solar Inverter",
-      "series": "Hybrid HF (1-phase)",
+      "type": "Combo",
+      "series": "HYBRID High Frequency (1 phase) Wall Mount",
       "model": "SOLAR HYBRID INV HF NXH 130 A48 3kW",
       "dcV": "48V",
       "gstPrice": 78795,
@@ -1214,8 +1214,8 @@ const DATA = {
     },
     {
       "src": "SOLAR",
-      "type": "Solar Inverter",
-      "series": "Hybrid HF (1-phase)",
+      "type": "Combo",
+      "series": "HYBRID High Frequency (1 phase) Wall Mount",
       "model": "SOLAR HYBRID INV HF NXH 150 A48 5KW",
       "dcV": "48V",
       "gstPrice": 93976,
@@ -1224,8 +1224,8 @@ const DATA = {
     },
     {
       "src": "SOLAR",
-      "type": "Solar Inverter",
-      "series": "Hybrid HF (3-phase)",
+      "type": "Combo",
+      "series": "HYBRID High Frequency (3 phase) Wall Mount",
       "model": "SOLAR HYBRID INV HF NXH 308 A 8KW",
       "dcV": "120V-600V",
       "gstPrice": 203447,
@@ -1234,8 +1234,8 @@ const DATA = {
     },
     {
       "src": "SOLAR",
-      "type": "Solar Inverter",
-      "series": "Hybrid HF (3-phase)",
+      "type": "Combo",
+      "series": "HYBRID High Frequency (3 phase) Wall Mount",
       "model": "SOLAR HYBRID INV HF NXH 310 A 10KW",
       "dcV": "120V-600V",
       "gstPrice": 217688,
@@ -1244,8 +1244,8 @@ const DATA = {
     },
     {
       "src": "SOLAR",
-      "type": "Solar Inverter",
-      "series": "Hybrid HF (3-phase)",
+      "type": "Combo",
+      "series": "HYBRID High Frequency (3 phase) Wall Mount",
       "model": "SOLAR HYBRID INV HF NXH 312 A 12KW",
       "dcV": "120V-600V",
       "gstPrice": 226835,
@@ -1641,6 +1641,666 @@ const DATA = {
       "gstPrice": 203137,
       "mrp": 330000,
       "warranty": "10 Years"
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "Polycrystalline Solar Panels",
+      "model": "Poly 170W/12V",
+      "dcV": "12V",
+      "gstPrice": 4006,
+      "mrp": 6000,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "585W Panel/Pallet",
+      "model": "PV MOD LUM 24585T144 BI-TS",
+      "dcV": "–",
+      "gstPrice": 10548,
+      "mrp": 19600,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "585W Panel/Pallet",
+      "model": "PV MOD LUM 24585T144 BI-TS 31",
+      "dcV": "–",
+      "gstPrice": 10223,
+      "mrp": 607600,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "585W Panel/Pallet",
+      "model": "PV MOD LUM 24585TG144 BI-GL",
+      "dcV": "–",
+      "gstPrice": 10548,
+      "mrp": 19700,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "585W Panel/Pallet",
+      "model": "PV MOD LUM 24585TG144 BI-GL 31",
+      "dcV": "–",
+      "gstPrice": 10223,
+      "mrp": 610700,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "590W Panel/Pallet",
+      "model": "PV MOD LUM 24590T144 BI-TS",
+      "dcV": "–",
+      "gstPrice": 10638,
+      "mrp": 19800,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "590W Panel/Pallet",
+      "model": "PV MOD LUM 24590T144 BI-TS-31",
+      "dcV": "–",
+      "gstPrice": 10310,
+      "mrp": 613800,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "595W Panel/Pallet",
+      "model": "PV MOD LUM 24595TG144 BI-GL V1",
+      "dcV": "–",
+      "gstPrice": 10728,
+      "mrp": 20100,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "610W Panel/Pallet",
+      "model": "PV MOD LUM 610TG132 BI-GL V1",
+      "dcV": "–",
+      "gstPrice": 10999,
+      "mrp": 20700,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "610W Panel/Pallet",
+      "model": "PV MOD LUM 610TG132 BI-GL SPGS36",
+      "dcV": "–",
+      "gstPrice": 10659,
+      "mrp": 745200,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "615W Panel/Pallet",
+      "model": "PV MOD LUM 615TG132 BI-GL V1",
+      "dcV": "–",
+      "gstPrice": 11089,
+      "mrp": 20800,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "615W Panel/Pallet",
+      "model": "PV MOD LUM 615TG132 BI-GL SPGS36",
+      "dcV": "–",
+      "gstPrice": 10747,
+      "mrp": 748800,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "620W Panel/Pallet",
+      "model": "PV MOD LUM 620TG132 BI-GL V1",
+      "dcV": "–",
+      "gstPrice": 11179,
+      "mrp": 21500,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "620W Panel/Pallet",
+      "model": "PV MOD LUM 620TG132 BI-GL SPGS36",
+      "dcV": "–",
+      "gstPrice": 10834,
+      "mrp": 774000,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "625W Panel/Pallet",
+      "model": "PV MOD LUM 625TG132 BI-GL V1",
+      "dcV": "–",
+      "gstPrice": 11269,
+      "mrp": 21700,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "625W Panel/Pallet",
+      "model": "PV MOD LUM 625TG132 BI-GL SPGS36",
+      "dcV": "–",
+      "gstPrice": 10922,
+      "mrp": 781200,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "630W Panel/Pallet",
+      "model": "PV MOD LUM 630TG132 BI-GL V1",
+      "dcV": "–",
+      "gstPrice": 11359,
+      "mrp": 22500,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Solar Panel",
+      "series": "630W Panel/Pallet",
+      "model": "PV MOD LUM 630TG132 BI-GL SPGS36",
+      "dcV": "–",
+      "gstPrice": 11009,
+      "mrp": 810000,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG850e-12V1N-B40L4N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 28427,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG850e-12V1N-B40H4N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 30555,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG850e-12V1N-B80H2N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 26092,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG850e-12V1N-B100H1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 19447,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG850e-12V1N-B120H1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 20176,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG850e-12V1N-B150L1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 21882,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG850e-12V1N-B150H1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 23087,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG850e-12V1N-B200L1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 26523,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG850e-12V1N-B200H1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 27380,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG1150e-12V1N-B40L4N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 29728,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG1150e-12V1N-B40H4N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 31856,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG1150e-12V1N-B80H2N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 27393,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG1150e-12V1N-B100H1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 20749,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG1150e-12V1N-B120H1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 21478,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG1150e-12V1N-B150L1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 23183,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG1150e-12V1N-B150H1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 24388,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG1150e-12V1N-B200L1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 27824,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG1150e-12V1N-B200H1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 28681,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG1450e-12V1N-B40L4N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 30987,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG1450e-12V1N-B80H2N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 28652,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG1450e-12V1N-B100H1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 22007,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG1450e-12V1N-B120H1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 22736,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG1450e-12V1N-B150L1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 24441,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG1450e-12V1N-B150H1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 25647,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG1450e-12V1N-B200L1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 29083,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG e Series SPGS",
+      "model": "NXG1450e-12V1N-B200H1N-170W-1N",
+      "dcV": "12V",
+      "gstPrice": 29940,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V31N-B150L62N-585WBI-TSPL-31N",
+      "dcV": "24V",
+      "gstPrice": 1398441,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V31N-B150H62N-585WBI-TSPL-31N",
+      "dcV": "24V",
+      "gstPrice": 1473175,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V1N-B80H2N-585WBI-TS-1N",
+      "dcV": "24V",
+      "gstPrice": 36496,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V1N-B100H2N-585WBI-TS-1N",
+      "dcV": "24V",
+      "gstPrice": 40568,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V1N-B150L2N-585WBI-TS-1N",
+      "dcV": "24V",
+      "gstPrice": 45436,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V1N-B150H2N-585WBI-TS-1N",
+      "dcV": "24V",
+      "gstPrice": 47847,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V1N-B200L2N-585WBI-TS-1N",
+      "dcV": "24V",
+      "gstPrice": 54718,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V1N-B200H2N-585WBI-TS-1N",
+      "dcV": "24V",
+      "gstPrice": 56432,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850-24V1N-B80H4N-585WBI-TS-1N",
+      "dcV": "24V",
+      "gstPrice": 53857,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850-24V1N-B150L2N-585WBI-TS-1N",
+      "dcV": "24V",
+      "gstPrice": 45436,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850-24V1N-B150H2N-P590BI-TS-2N",
+      "dcV": "24V",
+      "gstPrice": 58575,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850-24V1N-B200H2N-P590BI-TS-2N",
+      "dcV": "24V",
+      "gstPrice": 67161,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V1N-B80H2N-P590BI-TS-2N",
+      "dcV": "24V",
+      "gstPrice": 47225,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V1N-B100H2N-P590BI-TS-2N",
+      "dcV": "24V",
+      "gstPrice": 51296,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V1N-B120H2N-P590BI-TS-2N",
+      "dcV": "24V",
+      "gstPrice": 52754,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V1N-B150L2N-P590BI-TS-2N",
+      "dcV": "24V",
+      "gstPrice": 56164,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V1N-B150H2N-P590BI-TS-2N",
+      "dcV": "24V",
+      "gstPrice": 58575,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V1N-B200L2N-P590BI-TS-2N",
+      "dcV": "24V",
+      "gstPrice": 65447,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V1N-B200H2N-P590BI-TS-2N",
+      "dcV": "24V",
+      "gstPrice": 67161,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V31N-B150L62N-P590BI-TSPL-31N",
+      "dcV": "24V",
+      "gstPrice": 1401132,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V31N-B150H62N-P590BI-TSPL-31N",
+      "dcV": "24V",
+      "gstPrice": 1475866,
+      "mrp": null,
+      "warranty": ""
+    },
+    {
+      "src": "SOLAR",
+      "type": "Combo",
+      "series": "NXG SPGS",
+      "model": "NXG1850e-24V31N-B200L62N-P590BI-TSPL-31N",
+      "dcV": "24V",
+      "gstPrice": 1688887,
+      "mrp": null,
+      "warranty": ""
     }
   ]
 };
@@ -1879,7 +2539,7 @@ function buildMessage(p, key) {
   else if (p.wave) msg += ` – ${p.wave}`;
   msg += `\n`;
   if (p.dcV && p.dcV !== '–') msg += `⚡ DC Voltage: ${p.dcV}\n`;
-  msg += `💰 Price (GST Incl.): ₹${formatINR(adjustedPrice)}${suffix}\n`;
+  msg += `💰 Price (GST Incl.): ₹${formatINR(adjustedPrice)}\n`;
   msg += `🛡️ Warranty: ${p.warranty || '—'}\n`;
   msg += `\n_Price is inclusive of 18% GST. Subject to change without notice._`;
   if (suffix) msg += `\n${suffix.trim()}`;
