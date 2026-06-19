@@ -34,10 +34,10 @@
     </button>
   </div>
   <div class="msg-body">
-    <textarea class="msg-text" id="messageText" spellcheck="false" placeholder="Select a product and click Message. You can edit this text before copying or sending."></textarea>
+    <textarea class="msg-text" id="messageText" spellcheck="false" placeholder="Tick one or more products below, then click Generate Message. You can edit this text before copying or sending."></textarea>
     <div class="msg-note">
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
-      Edit the message directly before copying or sending. Discount uses +N for increase and -N for decrease.
+      Select products using the checkboxes, then click Generate Message. Edit the message directly before copying or sending. Discount uses +N for increase and -N for decrease.
     </div>
   </div>
 </div>
@@ -74,6 +74,7 @@
       <option value="Charge Controller">Charge Controller</option>
       <option value="Helios Li-Ion">Helios Li-Ion</option>
       <option value="Grid Tie Inverter">Grid Tie Inverter</option>
+      <option value="Boost Charge">Boost Charge</option>
       <option value="Accessory">Accessory</option>
       <option value="Combo">Combo</option>
     </select>
@@ -99,7 +100,16 @@
   <div class="stat-item"><span class="dot" style="background:#ef4444"></span> <strong id="cnt-HELIOS">0</strong> Helios</div>
   <div class="stat-item"><span class="dot" style="background:#f59e0b"></span> <strong id="cnt-SOLAR">0</strong> Solar</div>
   <div class="stat-item"><span class="dot" style="background:#a855f7"></span> <strong id="cnt-GTI">0</strong> GTI</div>
-  <div class="stat-item" style="margin-left:auto; color:var(--text)"><strong id="totalCount">0</strong>&nbsp;results</div>
+  <div class="stat-item selection-stat" style="margin-left:auto">
+    <span style="color:var(--text)"><strong id="totalCount">0</strong>&nbsp;results</span>
+    <span class="sel-sep">·</span>
+    <span id="selectedCount">0 selected</span>
+    <button class="btn-generate" id="generateBtn" onclick="generateMessageForSelection()" disabled>
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+      Generate Message
+    </button>
+    <button class="btn-clear-sel" id="clearSelBtn" onclick="clearSelection()">Clear selection</button>
+  </div>
 </div>
 
 <div class="results-container" id="resultsContainer"></div>

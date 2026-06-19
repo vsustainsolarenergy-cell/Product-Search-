@@ -365,7 +365,19 @@
       "dcV": "–",
       "gstPrice": 7853,
       "mrp": 10200,
-      "warranty": "24+12 Months*"
+      "warranty": "24+12 Months*",
+      "range": "Short Tubular"
+    },
+    {
+      "src": "INBT",
+      "type": "Battery",
+      "range": "Short Tubular",
+      "ah": 100,
+      "model": "BC 12036ST (100Ah)",
+      "dcV": "–",
+      "gstPrice": 8364,
+      "mrp": null,
+      "warranty": "Not Mentioned"
     },
     {
       "src": "INBT",
@@ -375,7 +387,8 @@
       "dcV": "–",
       "gstPrice": 9544,
       "mrp": 12300,
-      "warranty": "24+18 Months*"
+      "warranty": "24+18 Months*",
+      "range": "Short Tubular"
     },
     {
       "src": "INBT",
@@ -385,7 +398,19 @@
       "dcV": "–",
       "gstPrice": 10213,
       "mrp": 13800,
-      "warranty": "24+24 Months*"
+      "warranty": "24+24 Months*",
+      "range": "Short Tubular"
+    },
+    {
+      "src": "INBT",
+      "type": "Battery",
+      "range": "Short Tubular",
+      "ah": 135,
+      "model": "BC 16048ST (135Ah)",
+      "dcV": "–",
+      "gstPrice": 9428,
+      "mrp": null,
+      "warranty": "Not Mentioned"
     },
     {
       "src": "INBT",
@@ -395,7 +420,8 @@
       "dcV": "–",
       "gstPrice": 11576,
       "mrp": 16100,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Short Tubular"
     },
     {
       "src": "INBT",
@@ -405,7 +431,8 @@
       "dcV": "–",
       "gstPrice": 12726,
       "mrp": 17900,
-      "warranty": "36+12 Months*"
+      "warranty": "36+12 Months*",
+      "range": "Jumbo Tubular"
     },
     {
       "src": "INBT",
@@ -415,7 +442,19 @@
       "dcV": "–",
       "gstPrice": 11564,
       "mrp": 16700,
-      "warranty": "18+18 Months*"
+      "warranty": "18+18 Months*",
+      "range": "Tall Tubular"
+    },
+    {
+      "src": "INBT",
+      "type": "Battery",
+      "range": "Short Tubular",
+      "ah": 150,
+      "model": "BC 18048ST (150Ah)",
+      "dcV": "–",
+      "gstPrice": 11247,
+      "mrp": null,
+      "warranty": "Not Mentioned"
     },
     {
       "src": "INBT",
@@ -425,7 +464,8 @@
       "dcV": "–",
       "gstPrice": 11869,
       "mrp": 17200,
-      "warranty": "24+24 Months*"
+      "warranty": "24+24 Months*",
+      "range": "Short Tubular"
     },
     {
       "src": "INBT",
@@ -435,7 +475,8 @@
       "dcV": "–",
       "gstPrice": 12566,
       "mrp": 16200,
-      "warranty": "15+15 Months*"
+      "warranty": "15+15 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -445,7 +486,8 @@
       "dcV": "–",
       "gstPrice": 12697,
       "mrp": 16900,
-      "warranty": "18+18 Months*"
+      "warranty": "18+18 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -455,7 +497,8 @@
       "dcV": "–",
       "gstPrice": 12900,
       "mrp": 17400,
-      "warranty": "24+24 Months*"
+      "warranty": "24+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -465,7 +508,8 @@
       "dcV": "–",
       "gstPrice": 13146,
       "mrp": 18000,
-      "warranty": "30+24 Months*"
+      "warranty": "30+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -475,7 +519,8 @@
       "dcV": "–",
       "gstPrice": 12154,
       "mrp": 17700,
-      "warranty": "30+24 Months*"
+      "warranty": "30+24 Months*",
+      "range": "Jumbo Tubular"
     },
     {
       "src": "INBT",
@@ -485,7 +530,8 @@
       "dcV": "–",
       "gstPrice": 13476,
       "mrp": 18100,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -495,7 +541,8 @@
       "dcV": "–",
       "gstPrice": 12699,
       "mrp": 17300,
-      "warranty": "24+18 Months*"
+      "warranty": "24+18 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -505,7 +552,8 @@
       "dcV": "–",
       "gstPrice": 12922,
       "mrp": 18600,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -515,7 +563,8 @@
       "dcV": "–",
       "gstPrice": 13886,
       "mrp": 18200,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -525,7 +574,8 @@
       "dcV": "–",
       "gstPrice": 17282,
       "mrp": 23900,
-      "warranty": "60+15 Months*"
+      "warranty": "60+15 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -535,7 +585,8 @@
       "dcV": "–",
       "gstPrice": 14724,
       "mrp": 20400,
-      "warranty": "42+24 Months*"
+      "warranty": "42+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -545,7 +596,8 @@
       "dcV": "–",
       "gstPrice": 13412,
       "mrp": 17700,
-      "warranty": "21+21 Months*"
+      "warranty": "21+21 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -555,7 +607,8 @@
       "dcV": "–",
       "gstPrice": 15317,
       "mrp": 19900,
-      "warranty": "24+24 Months*"
+      "warranty": "24+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -565,7 +618,8 @@
       "dcV": "–",
       "gstPrice": 14169,
       "mrp": 18500,
-      "warranty": "30+30 Months*"
+      "warranty": "30+30 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -575,7 +629,8 @@
       "dcV": "–",
       "gstPrice": 14674,
       "mrp": 19400,
-      "warranty": "36+30 Months*"
+      "warranty": "36+30 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -585,7 +640,8 @@
       "dcV": "–",
       "gstPrice": 17070,
       "mrp": 22100,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -595,7 +651,8 @@
       "dcV": "–",
       "gstPrice": 17425,
       "mrp": 23200,
-      "warranty": "42+24 Months*"
+      "warranty": "42+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -605,7 +662,8 @@
       "dcV": "–",
       "gstPrice": 16333,
       "mrp": 21100,
-      "warranty": "18+18 Months*"
+      "warranty": "18+18 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -615,7 +673,8 @@
       "dcV": "–",
       "gstPrice": 16569,
       "mrp": 21500,
-      "warranty": "24+24 Months*"
+      "warranty": "24+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -625,7 +684,8 @@
       "dcV": "–",
       "gstPrice": 18313,
       "mrp": 23600,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -635,7 +695,8 @@
       "dcV": "–",
       "gstPrice": 18830,
       "mrp": 24700,
-      "warranty": "42+24 Months*"
+      "warranty": "42+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -645,7 +706,8 @@
       "dcV": "–",
       "gstPrice": 19375,
       "mrp": 25800,
-      "warranty": "48+24 Months*"
+      "warranty": "48+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -655,7 +717,8 @@
       "dcV": "–",
       "gstPrice": 18082,
       "mrp": 23500,
-      "warranty": "24+24 Months*"
+      "warranty": "24+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -665,7 +728,8 @@
       "dcV": "–",
       "gstPrice": 19846,
       "mrp": 25600,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -675,7 +739,8 @@
       "dcV": "–",
       "gstPrice": 20205,
       "mrp": 26900,
-      "warranty": "42+24 Months*"
+      "warranty": "42+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -685,7 +750,8 @@
       "dcV": "–",
       "gstPrice": 22223,
       "mrp": 29500,
-      "warranty": "42+24 Months*"
+      "warranty": "42+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -695,7 +761,8 @@
       "dcV": "–",
       "gstPrice": 21970,
       "mrp": 28300,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -705,7 +772,8 @@
       "dcV": "–",
       "gstPrice": 22768,
       "mrp": 32200,
-      "warranty": "48+24 Months*"
+      "warranty": "48+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -715,7 +783,8 @@
       "dcV": "–",
       "gstPrice": 25166,
       "mrp": 31300,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -725,7 +794,8 @@
       "dcV": "–",
       "gstPrice": 17399,
       "mrp": 22799,
-      "warranty": "24+24 Months*"
+      "warranty": "24+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -735,7 +805,8 @@
       "dcV": "–",
       "gstPrice": 19227,
       "mrp": 24999,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -745,7 +816,8 @@
       "dcV": "–",
       "gstPrice": 20838,
       "mrp": 27199,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -755,7 +827,140 @@
       "dcV": "–",
       "gstPrice": 23070,
       "mrp": 29999,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 1000 Pro",
+      "dcV": "36V",
+      "gstPrice": 17261,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "—",
+      "maxExternalAh": "65 Ah"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 1000 Inbuilt",
+      "dcV": "36V",
+      "gstPrice": 19387,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "7Ah x 3",
+      "maxExternalAh": "7 Ah"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 2000",
+      "dcV": "72V",
+      "gstPrice": 26892,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "—",
+      "maxExternalAh": "65 Ah"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 2000 Inbuilt",
+      "dcV": "72V",
+      "gstPrice": 30646,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "7Ah x 6",
+      "maxExternalAh": "7 Ah"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 3000 Pro",
+      "dcV": "72V",
+      "gstPrice": 31895,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "—",
+      "maxExternalAh": "65 Ah"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 3000 Inbuilt",
+      "dcV": "72V",
+      "gstPrice": 38024,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "9Ah x 6",
+      "maxExternalAh": "9 Ah"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 6000 External",
+      "dcV": "192V",
+      "gstPrice": 57537,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "—",
+      "maxExternalAh": "65 Ah"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 10000 Pro",
+      "dcV": "192V-240V (variable)",
+      "gstPrice": 86931,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "—",
+      "maxExternalAh": "65 Ah"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 10K3P1P (3:1)",
+      "dcV": "240V",
+      "gstPrice": 137588,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "—",
+      "maxExternalAh": "65 Ah"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 20000 (3:1)",
+      "dcV": "240V",
+      "gstPrice": 231398,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "—",
+      "maxExternalAh": "65 Ah"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 2000S (3:1)",
+      "dcV": "240V",
+      "gstPrice": 225144,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "—",
+      "maxExternalAh": "65 Ah"
     },
     {
       "src": "HKVA",

@@ -370,7 +370,19 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 7853,
       "mrp": 10200,
-      "warranty": "24+12 Months*"
+      "warranty": "24+12 Months*",
+      "range": "Short Tubular"
+    },
+    {
+      "src": "INBT",
+      "type": "Battery",
+      "range": "Short Tubular",
+      "ah": 100,
+      "model": "BC 12036ST (100Ah)",
+      "dcV": "–",
+      "gstPrice": 8364,
+      "mrp": null,
+      "warranty": "Not Mentioned"
     },
     {
       "src": "INBT",
@@ -380,7 +392,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 9544,
       "mrp": 12300,
-      "warranty": "24+18 Months*"
+      "warranty": "24+18 Months*",
+      "range": "Short Tubular"
     },
     {
       "src": "INBT",
@@ -390,7 +403,19 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 10213,
       "mrp": 13800,
-      "warranty": "24+24 Months*"
+      "warranty": "24+24 Months*",
+      "range": "Short Tubular"
+    },
+    {
+      "src": "INBT",
+      "type": "Battery",
+      "range": "Short Tubular",
+      "ah": 135,
+      "model": "BC 16048ST (135Ah)",
+      "dcV": "–",
+      "gstPrice": 9428,
+      "mrp": null,
+      "warranty": "Not Mentioned"
     },
     {
       "src": "INBT",
@@ -400,7 +425,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 11576,
       "mrp": 16100,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Short Tubular"
     },
     {
       "src": "INBT",
@@ -410,7 +436,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 12726,
       "mrp": 17900,
-      "warranty": "36+12 Months*"
+      "warranty": "36+12 Months*",
+      "range": "Jumbo Tubular"
     },
     {
       "src": "INBT",
@@ -420,7 +447,19 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 11564,
       "mrp": 16700,
-      "warranty": "18+18 Months*"
+      "warranty": "18+18 Months*",
+      "range": "Tall Tubular"
+    },
+    {
+      "src": "INBT",
+      "type": "Battery",
+      "range": "Short Tubular",
+      "ah": 150,
+      "model": "BC 18048ST (150Ah)",
+      "dcV": "–",
+      "gstPrice": 11247,
+      "mrp": null,
+      "warranty": "Not Mentioned"
     },
     {
       "src": "INBT",
@@ -430,7 +469,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 11869,
       "mrp": 17200,
-      "warranty": "24+24 Months*"
+      "warranty": "24+24 Months*",
+      "range": "Short Tubular"
     },
     {
       "src": "INBT",
@@ -440,7 +480,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 12566,
       "mrp": 16200,
-      "warranty": "15+15 Months*"
+      "warranty": "15+15 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -450,7 +491,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 12697,
       "mrp": 16900,
-      "warranty": "18+18 Months*"
+      "warranty": "18+18 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -460,7 +502,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 12900,
       "mrp": 17400,
-      "warranty": "24+24 Months*"
+      "warranty": "24+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -470,7 +513,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 13146,
       "mrp": 18000,
-      "warranty": "30+24 Months*"
+      "warranty": "30+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -480,7 +524,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 12154,
       "mrp": 17700,
-      "warranty": "30+24 Months*"
+      "warranty": "30+24 Months*",
+      "range": "Jumbo Tubular"
     },
     {
       "src": "INBT",
@@ -490,7 +535,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 13476,
       "mrp": 18100,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -500,7 +546,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 12699,
       "mrp": 17300,
-      "warranty": "24+18 Months*"
+      "warranty": "24+18 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -510,7 +557,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 12922,
       "mrp": 18600,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -520,7 +568,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 13886,
       "mrp": 18200,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -530,7 +579,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 17282,
       "mrp": 23900,
-      "warranty": "60+15 Months*"
+      "warranty": "60+15 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -540,7 +590,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 14724,
       "mrp": 20400,
-      "warranty": "42+24 Months*"
+      "warranty": "42+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -550,7 +601,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 13412,
       "mrp": 17700,
-      "warranty": "21+21 Months*"
+      "warranty": "21+21 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -560,7 +612,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 15317,
       "mrp": 19900,
-      "warranty": "24+24 Months*"
+      "warranty": "24+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -570,7 +623,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 14169,
       "mrp": 18500,
-      "warranty": "30+30 Months*"
+      "warranty": "30+30 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -580,7 +634,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 14674,
       "mrp": 19400,
-      "warranty": "36+30 Months*"
+      "warranty": "36+30 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -590,7 +645,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 17070,
       "mrp": 22100,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -600,7 +656,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 17425,
       "mrp": 23200,
-      "warranty": "42+24 Months*"
+      "warranty": "42+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -610,7 +667,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 16333,
       "mrp": 21100,
-      "warranty": "18+18 Months*"
+      "warranty": "18+18 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -620,7 +678,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 16569,
       "mrp": 21500,
-      "warranty": "24+24 Months*"
+      "warranty": "24+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -630,7 +689,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 18313,
       "mrp": 23600,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -640,7 +700,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 18830,
       "mrp": 24700,
-      "warranty": "42+24 Months*"
+      "warranty": "42+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -650,7 +711,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 19375,
       "mrp": 25800,
-      "warranty": "48+24 Months*"
+      "warranty": "48+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -660,7 +722,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 18082,
       "mrp": 23500,
-      "warranty": "24+24 Months*"
+      "warranty": "24+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -670,7 +733,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 19846,
       "mrp": 25600,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -680,7 +744,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 20205,
       "mrp": 26900,
-      "warranty": "42+24 Months*"
+      "warranty": "42+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -690,7 +755,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 22223,
       "mrp": 29500,
-      "warranty": "42+24 Months*"
+      "warranty": "42+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -700,7 +766,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 21970,
       "mrp": 28300,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -710,7 +777,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 22768,
       "mrp": 32200,
-      "warranty": "48+24 Months*"
+      "warranty": "48+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -720,7 +788,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 25166,
       "mrp": 31300,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -730,7 +799,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 17399,
       "mrp": 22799,
-      "warranty": "24+24 Months*"
+      "warranty": "24+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -740,7 +810,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 19227,
       "mrp": 24999,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -750,7 +821,8 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 20838,
       "mrp": 27199,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
     {
       "src": "INBT",
@@ -760,8 +832,142 @@ const DATA = {
       "dcV": "–",
       "gstPrice": 23070,
       "mrp": 29999,
-      "warranty": "36+24 Months*"
+      "warranty": "36+24 Months*",
+      "range": "Tall Tubular"
     },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 1000 Pro",
+      "dcV": "36V",
+      "gstPrice": 17261,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "—",
+      "maxExternalAh": "65 Ah"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 1000 Inbuilt",
+      "dcV": "36V",
+      "gstPrice": 19387,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "7Ah x 3",
+      "maxExternalAh": "7 Ah"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 2000",
+      "dcV": "72V",
+      "gstPrice": 26892,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "—",
+      "maxExternalAh": "65 Ah"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 2000 Inbuilt",
+      "dcV": "72V",
+      "gstPrice": 30646,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "7Ah x 6",
+      "maxExternalAh": "7 Ah"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 3000 Pro",
+      "dcV": "72V",
+      "gstPrice": 31895,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "—",
+      "maxExternalAh": "65 Ah"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 3000 Inbuilt",
+      "dcV": "72V",
+      "gstPrice": 38024,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "9Ah x 6",
+      "maxExternalAh": "9 Ah"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 6000 External",
+      "dcV": "192V",
+      "gstPrice": 57537,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "—",
+      "maxExternalAh": "65 Ah"
+    },
+    {
+      "src": "INBT",
+      "type": "Boost Charge",
+      "series": "Boost Charge Series",
+      "model": "LD 10000 Pro",
+      "dcV": "192V-240V (variable)",
+      "gstPrice": 86931,
+      "mrp": null,
+      "warranty": "2 Years",
+      "inbuiltBattery": "—",
+      "maxExternalAh": "65 Ah"
+    },
+
+      {
+        "src": "INBT",
+        "type": "Boost Charge",
+        "series": "Boost Charge Series",
+        "model": "LD 10K3P1P (3:1)",
+        "dcV": "240V",
+        "gstPrice": 137588,
+        "mrp": null,
+        "warranty": "2 Years",
+        "inbuiltBattery": "—",
+        "maxExternalAh": "65 Ah"
+      },
+      {
+        "src": "INBT",
+        "type": "Boost Charge",
+        "series": "Boost Charge Series",
+        "model": "LD 20000 (3:1)",
+        "dcV": "240V",
+        "gstPrice": 231398,
+        "mrp": null,
+        "warranty": "2 Years",
+        "inbuiltBattery": "—",
+        "maxExternalAh": "65 Ah"
+      },
+      {
+        "src": "INBT",
+        "type": "Boost Charge",
+        "series": "Boost Charge Series",
+        "model": "LD 2000S (3:1)",
+        "dcV": "240V",
+        "gstPrice": 225144,
+        "mrp": null,
+        "warranty": "2 Years",
+        "inbuiltBattery": "—",
+        "maxExternalAh": "65 Ah"
+      },
     {
       "src": "HKVA",
       "type": "Inverter",
@@ -2307,10 +2513,15 @@ const DATA = {
 
 const sourceOrder = ['INBT', 'HKVA', 'HELIOS', 'SOLAR', 'GTI'];
 const sourceConfig = DATA.sources;
-let currentProductKey = null;
-let currentMessageProductKey = null;
+
+// selectedKeys: products currently ticked via checkbox (drives the message).
+// currentMessageKeys: snapshot of keys the message panel currently reflects,
+// used to auto-refresh the draft when the global discount changes.
+let selectedKeys = new Set();
+let currentMessageKeys = [];
 let messageDirty = false;
 let globalDiscount = 0;
+
 function formatINR(value) {
   const n = Math.round(Number(value) || 0);
   return new Intl.NumberFormat('en-IN').format(n);
@@ -2341,11 +2552,16 @@ function productKey(index) {
   return `p-${index}`;
 }
 
+function productFromKey(key) {
+  const idx = Number(String(key).replace(/^p-/, ''));
+  return DATA.products[idx];
+}
+
 function getGlobalDiscount() {
   const el = document.getElementById('globalDiscount');
   if (!el) return globalDiscount;
-  const raw=el.value.trim();
-  if(raw==='-'||raw==='+') return 0;
+  const raw = el.value.trim();
+  if (raw === '-' || raw === '+') return 0;
   const parsed = normalizeDiscount(raw);
   globalDiscount = parsed;
   return parsed;
@@ -2365,9 +2581,9 @@ function setGlobalDiscount(value) {
 function loadGlobalDiscount() {
   try {
     const rawSaved = localStorage.getItem('luminousGlobalDiscountRaw');
-    if(rawSaved !== null){
-      const el=document.getElementById('globalDiscount');
-      if(el) el.value = rawSaved;
+    if (rawSaved !== null) {
+      const el = document.getElementById('globalDiscount');
+      if (el) el.value = rawSaved;
       globalDiscount = normalizeDiscount(rawSaved);
       return;
     }
@@ -2385,14 +2601,17 @@ function loadGlobalDiscount() {
 }
 
 function productSearchBlob(p) {
-  return [p.model, p.type, p.series || '', p.wave || '', p.src || '', p.dcV || '', p.warranty || '', String(p.ah || '')]
-    .join(' ')
-    .toLowerCase();
+  return [
+    p.model, p.type, p.series || '', p.wave || '', p.src || '', p.dcV || '',
+    p.warranty || '', p.range || '', p.inbuiltBattery || '', p.maxExternalAh || '',
+    String(p.ah || '')
+  ].join(' ').toLowerCase();
 }
 
 function currentAdjustedPrice(p) {
   return applyDiscount(p.gstPrice, getGlobalDiscount());
 }
+
 function updateCounts(list) {
   const counts = { INBT: 0, HKVA: 0, HELIOS: 0, SOLAR: 0, GTI: 0 };
   list.forEach((p) => {
@@ -2424,6 +2643,84 @@ function getFilteredProducts() {
 function applyFilters() {
   renderResults(getFilteredProducts());
 }
+
+/* ============================================================
+   Selection (checkboxes) + selection summary bar
+   ============================================================ */
+
+function updateSelectionBar() {
+  const n = selectedKeys.size;
+  const countEl = document.getElementById('selectedCount');
+  if (countEl) countEl.textContent = `${n} selected`;
+
+  const genBtn = document.getElementById('generateBtn');
+  if (genBtn) genBtn.disabled = n === 0;
+
+  const clearBtn = document.getElementById('clearSelBtn');
+  if (clearBtn) clearBtn.classList.toggle('visible', n > 0);
+}
+
+function setRowSelected(key, selected) {
+  const row = document.getElementById(`row-${key}`);
+  if (row) row.classList.toggle('selected', selected);
+  const cb = row ? row.querySelector('.row-check') : document.querySelector(`.row-check[data-key="${key}"]`);
+  if (cb) cb.checked = selected;
+}
+
+function toggleSelect(key) {
+  const nowSelected = !selectedKeys.has(key);
+  if (nowSelected) selectedKeys.add(key);
+  else selectedKeys.delete(key);
+  setRowSelected(key, nowSelected);
+  syncSectionSelectAll(key);
+  updateSelectionBar();
+}
+
+function syncSectionSelectAll(key) {
+  const row = document.getElementById(`row-${key}`);
+  if (!row) return;
+  const section = row.closest('.source-section');
+  if (!section) return;
+  const allChecks = Array.from(section.querySelectorAll('.row-check'));
+  const allOn = allChecks.length > 0 && allChecks.every((cb) => selectedKeys.has(cb.dataset.key));
+  const headCb = section.querySelector('.select-all-check');
+  if (headCb) headCb.checked = allOn;
+}
+
+function toggleSelectAllInSection(checkbox) {
+  const section = checkbox.closest('.source-section');
+  if (!section) return;
+  const rowChecks = section.querySelectorAll('.row-check');
+  rowChecks.forEach((cb) => {
+    const key = cb.dataset.key;
+    if (checkbox.checked) selectedKeys.add(key);
+    else selectedKeys.delete(key);
+    setRowSelected(key, checkbox.checked);
+  });
+  updateSelectionBar();
+}
+
+function clearSelection() {
+  selectedKeys.forEach((key) => setRowSelected(key, false));
+  selectedKeys.clear();
+  document.querySelectorAll('.select-all-check').forEach((cb) => { cb.checked = false; });
+  updateSelectionBar();
+}
+
+function reapplySelectionState() {
+  selectedKeys.forEach((key) => setRowSelected(key, true));
+  document.querySelectorAll('.source-section').forEach((section) => {
+    const allChecks = Array.from(section.querySelectorAll('.row-check'));
+    const allOn = allChecks.length > 0 && allChecks.every((cb) => selectedKeys.has(cb.dataset.key));
+    const headCb = section.querySelector('.select-all-check');
+    if (headCb) headCb.checked = allOn;
+  });
+  updateSelectionBar();
+}
+
+/* ============================================================
+   Rendering
+   ============================================================ */
 
 function renderResults(list) {
   const container = document.getElementById('resultsContainer');
@@ -2461,21 +2758,29 @@ function renderResults(list) {
         <table>
           <thead>
             <tr>
+              <th class="select-th"><input type="checkbox" class="select-all-check" title="Select all in this list" onclick="toggleSelectAllInSection(this)"></th>
               <th>Model</th>
               <th>Type</th>
               <th>DC Voltage</th>
               <th>GST Price</th>
               <th>MRP</th>
               <th>Warranty</th>
-              <th>Generate Message</th>
             </tr>
           </thead>
           <tbody>`;
 
     grouped[src].forEach(({ p, idx, key }) => {
       const typeClassName = `type-${String(p.type || '').toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
-      const seriesText = p.series || p.wave || '';
+
+      let seriesText = p.series || p.wave || p.range || '';
+      if (p.type === 'Boost Charge') {
+        const extra = [];
+        if (p.inbuiltBattery && p.inbuiltBattery !== '—') extra.push(`Inbuilt: ${p.inbuiltBattery}`);
+        if (p.maxExternalAh) extra.push(`Max External: ${p.maxExternalAh}`);
+        seriesText = extra.length ? [seriesText, extra.join(' · ')].filter(Boolean).join(' · ') : seriesText;
+      }
       const seriesHtml = seriesText ? `<div class="model-series">${seriesText}</div>` : '';
+
       const discount = getGlobalDiscount();
       const adjustedPrice = currentAdjustedPrice(p);
       const priceHtml = discount === 0
@@ -2483,7 +2788,10 @@ function renderResults(list) {
         : `<div class="price-gst">₹${formatINR(adjustedPrice)} <span class="price-delta">${discount > 0 ? '+' : ''}${discount}%</span></div><div class="price-base">Base ₹${formatINR(p.gstPrice)}</div>`;
       const mrpHtml = p.mrp ? `<div class="price-mrp">Base ₹${formatINR(p.mrp)}</div>` : `<div class="price-mrp">—</div>`;
 
-      html += `<tr id="row-${key}" class="product-row" onclick="selectProduct('${key}')">
+      html += `<tr id="row-${key}" class="product-row" onclick="toggleSelect('${key}')">
+        <td class="select-cell" onclick="event.stopPropagation()">
+          <input type="checkbox" class="row-check" data-key="${key}" onclick="toggleSelect('${key}')">
+        </td>
         <td>
           <div class="model-name">${p.model}</div>
           ${seriesHtml}
@@ -2493,12 +2801,6 @@ function renderResults(list) {
         <td>${priceHtml}</td>
         <td>${mrpHtml}</td>
         <td><div class="warranty-info">${p.warranty || '—'}</div></td>
-        <td>
-          <button class="btn-msg" onclick="event.stopPropagation(); generateMessage('${key}')">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
-            Message
-          </button>
-        </td>
       </tr>`;
     });
 
@@ -2508,88 +2810,96 @@ function renderResults(list) {
   html += '</div>';
   container.innerHTML = html;
 
-  if (currentProductKey) {
-    const active = document.getElementById(`row-${currentProductKey}`);
-    if (active) active.classList.add('active');
-  }
+  reapplySelectionState();
 }
 
 function handleGlobalDiscountInput(value) {
-  try { localStorage.setItem('luminousGlobalDiscountRaw', value); } catch(e){}
+  try { localStorage.setItem('luminousGlobalDiscountRaw', value); } catch (e) {}
   globalDiscount = normalizeDiscount(value);
   renderResults(getFilteredProducts());
 
-  if (currentMessageProductKey && !messageDirty) {
-    const currentIdx = Number(String(currentProductKey).replace(/^p-/, ''));
-    const p = DATA.products[currentIdx];
-    if (p) generateMessage(currentProductKey, { overwrite: true });
+  if (currentMessageKeys.length && !messageDirty) {
+    const products = currentMessageKeys.map(productFromKey).filter(Boolean);
+    if (products.length) setMessageValue(buildCombinedMessage(products));
   }
 }
 
-function buildMessage(p) {
-  const discount = getGlobalDiscount();
+/* ============================================================
+   Message building (supports one or many selected products)
+   ============================================================ */
+
+function buildMessageItem(p, index, total) {
   const adjustedPrice = currentAdjustedPrice(p);
+  const lines = [];
+  const prefix = total > 1 ? `${index + 1}) ` : '';
+  lines.push(`${prefix}*${p.model}*`);
+
+  let typeLine = `🏷️ ${p.type}`;
+  if (p.series) typeLine += ` – ${p.series}`;
+  else if (p.wave) typeLine += ` – ${p.wave}`;
+  else if (p.range) typeLine += ` – ${p.range}`;
+  lines.push(typeLine);
+
+  if (p.dcV && p.dcV !== '–') lines.push(`⚡ DC Voltage: ${p.dcV}`);
+  if (p.type === 'Boost Charge') {
+    if (p.inbuiltBattery && p.inbuiltBattery !== '—') lines.push(`🔋 Inbuilt Battery: ${p.inbuiltBattery}`);
+    if (p.maxExternalAh) lines.push(`🔌 Max External: ${p.maxExternalAh}`);
+  }
+  lines.push(`💰 Price (GST Incl.): ₹${formatINR(adjustedPrice)}`);
+  lines.push(`🛡️ Warranty: ${p.warranty || '—'}`);
+
+  return lines.join('\n');
+}
+
+function buildCombinedMessage(products) {
+  const discount = getGlobalDiscount();
   const suffix = discountSuffix(discount);
+  const total = products.length;
 
-  let msg = `*Luminous ${p.model}*
+  let msg = total > 1
+    ? `*Luminous – Price Quote (${total} items)*\n\n`
+    : `*Luminous ${products[0].model}*\n\n`;
 
-`;
-  msg += `📦 Product: ${p.model}
-`;
-  msg += `🏷️ Type: ${p.type}`;
-  if (p.series) msg += ` – ${p.series}`;
-  else if (p.wave) msg += ` – ${p.wave}`;
-  msg += `
-`;
-  if (p.dcV && p.dcV !== '–') msg += `⚡ DC Voltage: ${p.dcV}
-`;
-  msg += `💰 Price (GST Incl.): ₹${formatINR(adjustedPrice)}
-`;
-  msg += `🛡️ Warranty: ${p.warranty || '—'}
-`;
-  msg += `
-_Price is inclusive of 18% GST. Subject to change without notice.${suffix.trim()?(' '+suffix.trim()):''}_`;
+  msg += products.map((p, i) => buildMessageItem(p, i, total)).join('\n\n');
 
+  if (total > 1) {
+    const sum = products.reduce((acc, p) => acc + currentAdjustedPrice(p), 0);
+    msg += `\n\n*Total (GST Incl.): ₹${formatINR(sum)}*`;
+  }
+
+  msg += `\n\n_Price is inclusive of GST. Subject to change without notice.${suffix.trim() ? (' ' + suffix.trim()) : ''}_`;
   return msg;
 }
 
 function setMessageValue(value) {
-  const el = document.getElementById('messageText');
-  el.value = value;
+  document.getElementById('messageText').value = value;
 }
 
 function getMessageValue() {
   return document.getElementById('messageText').value || '';
 }
 
-function generateMessage(key, options = {}) {
-  const idx = Number(String(key).replace(/^p-/, ''));
-  const p = DATA.products[idx];
-  if (!p) return;
-
-  currentProductKey = key;
-  currentMessageProductKey = key;
-  const panel = document.getElementById('messagePanel');
-  panel.classList.add('visible');
-
-  if (options.overwrite !== false || !messageDirty) {
-    setMessageValue(buildMessage(p));
-    messageDirty = false;
-  }
-
-  document.querySelectorAll('.product-row').forEach((row) => row.classList.remove('active'));
-  const active = document.getElementById(`row-${key}`);
-  if (active) active.classList.add('active');
-
-  panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-
+function resetCopyButtonLabel() {
   const btn = document.getElementById('copyBtn');
   btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy Message';
   btn.classList.remove('copied');
 }
 
-function selectProduct(key) {
-  generateMessage(key);
+function generateMessageForSelection() {
+  if (selectedKeys.size === 0) return;
+  const keys = Array.from(selectedKeys);
+  const products = keys.map(productFromKey).filter(Boolean);
+  if (!products.length) return;
+
+  currentMessageKeys = keys;
+  const panel = document.getElementById('messagePanel');
+  panel.classList.add('visible');
+
+  setMessageValue(buildCombinedMessage(products));
+  messageDirty = false;
+
+  panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  resetCopyButtonLabel();
 }
 
 function copyMessage() {
@@ -2598,10 +2908,7 @@ function copyMessage() {
     const btn = document.getElementById('copyBtn');
     btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Copied!';
     btn.classList.add('copied');
-    setTimeout(() => {
-      btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy Message';
-      btn.classList.remove('copied');
-    }, 2200);
+    setTimeout(resetCopyButtonLabel, 2200);
   }).catch(() => {
     alert('Copy failed. Select the text and copy manually.');
   });
@@ -2634,14 +2941,17 @@ function init() {
   initMessageEditor();
   applyFilters();
   document.getElementById('messagePanel').classList.add('visible');
-  document.getElementById('messageText').value = 'Select a product and click Message to generate an editable draft here.';
+  document.getElementById('messageText').value = 'Tick the checkbox next to one or more products, then click Generate Message to draft an editable quote here.';
+  updateSelectionBar();
 }
 
 window.applyFilters = applyFilters;
 window.resetFilters = resetFilters;
 window.copyMessage = copyMessage;
-window.generateMessage = generateMessage;
+window.toggleSelect = toggleSelect;
+window.toggleSelectAllInSection = toggleSelectAllInSection;
+window.clearSelection = clearSelection;
+window.generateMessageForSelection = generateMessageForSelection;
 window.handleGlobalDiscountInput = handleGlobalDiscountInput;
-window.selectProduct = selectProduct;
 
 document.addEventListener('DOMContentLoaded', init);
