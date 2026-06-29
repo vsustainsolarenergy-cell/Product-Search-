@@ -34,6 +34,7 @@ const DATA = {
   "products": [
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "ICON 1100",
@@ -44,6 +45,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "ICON 1600",
@@ -54,6 +56,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "OPTIMUS 1250+",
@@ -64,6 +67,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "ECO VOLT NEO 750",
@@ -74,6 +78,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "ECO VOLT NEO 850",
@@ -84,6 +89,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "ECO VOLT NEO 1050",
@@ -94,6 +100,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "ECO VOLT NEO 1250+",
@@ -104,6 +111,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "ECO VOLT NEO 1550",
@@ -114,6 +122,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "ECO VOLT NEO 1650",
@@ -124,6 +133,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "ZELIO S 1150",
@@ -134,6 +144,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "ZELIO S 1250",
@@ -144,6 +155,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "ZELIO S 1550",
@@ -154,6 +166,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "EVO S 750",
@@ -164,6 +177,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "EVO S 850",
@@ -174,6 +188,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "EVO S 1050",
@@ -184,6 +199,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "EVO S 1250",
@@ -194,6 +210,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "EVO S 1550",
@@ -204,6 +221,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Sine Wave",
       "model": "EVO S 1650",
@@ -214,6 +232,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Square Wave",
       "model": "ECO WATT NEO 800",
@@ -224,6 +243,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Square Wave",
       "model": "ECO WATT NEO 900",
@@ -234,6 +254,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Square Wave",
       "model": "ECO WATT NEO 1050",
@@ -244,6 +265,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Square Wave",
       "model": "ECO WATT NEO 1250 PRO",
@@ -254,6 +276,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Square Wave",
       "model": "ECO WATT NEO 1650",
@@ -264,6 +287,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Square Wave",
       "model": "SHAKTI CHARGE NEO 1150 PRO",
@@ -274,6 +298,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Square Wave",
       "model": "SHAKTI CHARGE NEO 1450 PRO",
@@ -284,6 +309,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Square Wave",
       "model": "SHAKTI CHARGE NEO 1750 PRO",
@@ -294,6 +320,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Square Wave",
       "model": "EVO D 700",
@@ -304,6 +331,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Square Wave",
       "model": "EVO D 800",
@@ -314,6 +342,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Square Wave",
       "model": "EVO D 900",
@@ -324,6 +353,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Square Wave",
       "model": "EVO D 1050",
@@ -334,6 +364,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Square Wave",
       "model": "EVO D 1250",
@@ -344,6 +375,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Inverter",
       "wave": "Square Wave",
       "model": "EVO D 1650",
@@ -354,6 +386,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Accessory",
       "wave": "",
       "model": "DONGLE CONNECT WiFi",
@@ -364,6 +397,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 80,
       "model": "ILST 10036 (80Ah)",
@@ -375,6 +409,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "range": "Short Tubular",
       "ah": 100,
@@ -386,6 +421,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 100,
       "model": "ILST 12042 (100Ah)",
@@ -397,6 +433,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 120,
       "model": "RC 15000 Pro (120Ah)",
@@ -408,6 +445,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "range": "Short Tubular",
       "ah": 135,
@@ -419,6 +457,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 135,
       "model": "SC 16060 (135Ah)",
@@ -430,6 +469,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 150,
       "model": "ILTJ 18148 (150Ah)",
@@ -441,6 +481,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 150,
       "model": "RC 18000ST (150Ah)",
@@ -452,6 +493,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "range": "Short Tubular",
       "ah": 150,
@@ -463,6 +505,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 150,
       "model": "RC 18000ST PRO (150Ah)",
@@ -474,6 +517,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 150,
       "model": "NEO 18030 (150Ah)",
@@ -485,6 +529,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 150,
       "model": "RC 18000 (150Ah)",
@@ -496,6 +541,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 150,
       "model": "RC 18000 Pro (150Ah)",
@@ -507,6 +553,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 150,
       "model": "PC 18054 PRO (150Ah)",
@@ -518,6 +565,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 150,
       "model": "PC 18054 TJ PRO (150Ah)",
@@ -529,6 +577,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 150,
       "model": "SC 18060 (150Ah)",
@@ -540,6 +589,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 150,
       "model": "ECO 18000 (150Ah)",
@@ -551,6 +601,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 150,
       "model": "ILTT 18060 PRO (150Ah)",
@@ -562,6 +613,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 150,
       "model": "EC 18060 (150Ah)",
@@ -573,6 +625,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 150,
       "model": "LM 18075 (150Ah)",
@@ -584,6 +637,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 150,
       "model": "UCTT 18066 (150Ah)",
@@ -595,6 +649,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 160,
       "model": "PC 20042 (160Ah)",
@@ -606,6 +661,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 180,
       "model": "RC 24000 PRO (180Ah)",
@@ -617,6 +673,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 160,
       "model": "ILTT 20060 (160Ah)",
@@ -628,6 +685,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 160,
       "model": "ILTT 20066 (160Ah)",
@@ -639,6 +697,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 180,
       "model": "ILTT 24060 (180Ah)",
@@ -650,6 +709,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 180,
       "model": "UCTT 24066 (180Ah)",
@@ -661,6 +721,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 200,
       "model": "RC 25000 (200Ah)",
@@ -672,6 +733,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 200,
       "model": "RC 25000 PRO (200Ah)",
@@ -683,6 +745,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 200,
       "model": "ILTT 25060 (200Ah)",
@@ -694,6 +757,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 200,
       "model": "UCTT 25066 (200Ah)",
@@ -705,6 +769,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 200,
       "model": "UCTT 25072 (200Ah)",
@@ -716,6 +781,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 220,
       "model": "RC 26000 PRO (220Ah)",
@@ -727,6 +793,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 220,
       "model": "ILTT 26060 (220Ah)",
@@ -738,6 +805,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 220,
       "model": "UCTT 26066 (220Ah)",
@@ -749,6 +817,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 250,
       "model": "UCTT 28066 (250Ah)",
@@ -760,6 +829,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 250,
       "model": "ILTT 28060 (250Ah)",
@@ -771,6 +841,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 260,
       "model": "UCTT 29072 (260Ah)",
@@ -782,6 +853,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 300,
       "model": "ILTT 32060 (300Ah)",
@@ -793,6 +865,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 200,
       "model": "ECO 25048 (200Ah)",
@@ -804,6 +877,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 200,
       "model": "ECO 25060 (200Ah)",
@@ -815,6 +889,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 220,
       "model": "ECO 26060 (220Ah)",
@@ -826,6 +901,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Battery",
       "ah": 250,
       "model": "ECO 28060 (250Ah)",
@@ -837,6 +913,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Boost Charge",
       "series": "Boost Charge Series",
       "model": "LD 1000 Pro",
@@ -849,6 +926,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Boost Charge",
       "series": "Boost Charge Series",
       "model": "LD 1000 Inbuilt",
@@ -861,6 +939,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Boost Charge",
       "series": "Boost Charge Series",
       "model": "LD 2000",
@@ -873,6 +952,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Boost Charge",
       "series": "Boost Charge Series",
       "model": "LD 2000 Inbuilt",
@@ -885,6 +965,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Boost Charge",
       "series": "Boost Charge Series",
       "model": "LD 3000 Pro",
@@ -897,6 +978,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Boost Charge",
       "series": "Boost Charge Series",
       "model": "LD 3000 Inbuilt",
@@ -909,6 +991,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Boost Charge",
       "series": "Boost Charge Series",
       "model": "LD 6000 External",
@@ -921,6 +1004,7 @@ const DATA = {
     },
     {
       "src": "INBT",
+      "qty": 1,
       "type": "Boost Charge",
       "series": "Boost Charge Series",
       "model": "LD 10000 Pro",
@@ -934,6 +1018,7 @@ const DATA = {
 
       {
         "src": "INBT",
+        "qty": 1,
         "type": "Boost Charge",
         "series": "Boost Charge Series",
         "model": "LD 10K3P1P (3:1)",
@@ -946,6 +1031,7 @@ const DATA = {
       },
       {
         "src": "INBT",
+        "qty": 1,
         "type": "Boost Charge",
         "series": "Boost Charge Series",
         "model": "LD 20000 (3:1)",
@@ -958,6 +1044,7 @@ const DATA = {
       },
       {
         "src": "INBT",
+        "qty": 1,
         "type": "Boost Charge",
         "series": "Boost Charge Series",
         "model": "LD 2000S (3:1)",
@@ -970,6 +1057,7 @@ const DATA = {
       },
     {
       "src": "HKVA",
+      "qty": 1,
       "type": "Inverter",
       "series": "HKVA UPS",
       "model": "ECO WATT NEO 2300 (2KVA/24V)",
@@ -980,6 +1068,7 @@ const DATA = {
     },
     {
       "src": "HKVA",
+      "qty": 1,
       "type": "Inverter",
       "series": "HKVA UPS",
       "model": "EVO D 2300",
@@ -990,6 +1079,7 @@ const DATA = {
     },
     {
       "src": "HKVA",
+      "qty": 1,
       "type": "Inverter",
       "series": "HKVA UPS",
       "model": "EVO S 2300",
@@ -1000,6 +1090,7 @@ const DATA = {
     },
     {
       "src": "HKVA",
+      "qty": 1,
       "type": "Inverter",
       "series": "HKVA UPS",
       "model": "Eco Volt Neo 2300+ (2KVA/24V)",
@@ -1010,6 +1101,7 @@ const DATA = {
     },
     {
       "src": "HKVA",
+      "qty": 1,
       "type": "Inverter",
       "series": "HKVA UPS",
       "model": "OPTIMUS 2300+ (2KVA/24V)",
@@ -1020,6 +1112,7 @@ const DATA = {
     },
     {
       "src": "HKVA",
+      "qty": 1,
       "type": "Inverter",
       "series": "HKVA UPS",
       "model": "OPTIMUS 2800+ (2.5KVA/24V)",
@@ -1030,6 +1123,7 @@ const DATA = {
     },
     {
       "src": "HKVA",
+      "qty": 1,
       "type": "Inverter",
       "series": "HKVA UPS",
       "model": "OPTIMUS 3500+ (3KVA/24V)",
@@ -1040,6 +1134,7 @@ const DATA = {
     },
     {
       "src": "HKVA",
+      "qty": 1,
       "type": "Inverter",
       "series": "HKVA UPS",
       "model": "OPTIMUS 3800+ (3.5KVA/36V)",
@@ -1050,6 +1145,7 @@ const DATA = {
     },
     {
       "src": "HKVA",
+      "qty": 1,
       "type": "Inverter",
       "series": "HKVA UPS",
       "model": "OPTIMUS 4300+ (4KVA/36V)",
@@ -1060,6 +1156,7 @@ const DATA = {
     },
     {
       "src": "HKVA",
+      "qty": 1,
       "type": "Inverter",
       "series": "HKVA UPS",
       "model": "OPTIMUS 4500+ (4KVA/48V)",
@@ -1070,6 +1167,7 @@ const DATA = {
     },
     {
       "src": "HKVA",
+      "qty": 1,
       "type": "Inverter",
       "series": "HKVA UPS",
       "model": "OPTIMUS 6000+ (5KVA/48V)",
@@ -1080,6 +1178,7 @@ const DATA = {
     },
     {
       "src": "HKVA",
+      "qty": 1,
       "type": "Inverter",
       "series": "HKVA UPS",
       "model": "OPTIMUS 6500+ (5.5KVA/72V)",
@@ -1090,6 +1189,7 @@ const DATA = {
     },
     {
       "src": "HKVA",
+      "qty": 1,
       "type": "Inverter",
       "series": "HKVA UPS",
       "model": "I-CRUZE 7000+ (6KVA/96V)",
@@ -1100,6 +1200,7 @@ const DATA = {
     },
     {
       "src": "HKVA",
+      "qty": 1,
       "type": "Inverter",
       "series": "HKVA UPS",
       "model": "OPTIMUS 8000+ (7.5KVA/96V)",
@@ -1110,6 +1211,7 @@ const DATA = {
     },
     {
       "src": "HKVA",
+      "qty": 1,
       "type": "Inverter",
       "series": "HKVA UPS",
       "model": "I-CRUZE 9000+ (7.5KVA/120V)",
@@ -1120,6 +1222,7 @@ const DATA = {
     },
     {
       "src": "HKVA",
+      "qty": 1,
       "type": "Inverter",
       "series": "HKVA UPS",
       "model": "OPTIMUS 11000+ (10KVA/120V)",
@@ -1130,6 +1233,7 @@ const DATA = {
     },
     {
       "src": "HKVA",
+      "qty": 1,
       "type": "Accessory",
       "series": "HKVA",
       "model": "SYNC-X WI-FI DATA LOGGER",
@@ -1140,6 +1244,7 @@ const DATA = {
     },
     {
       "src": "HELIOS",
+      "qty": 1,
       "type": "Helios Li-Ion",
       "series": "Helios Series",
       "model": "BATT LI-ION HELIOS HL 12X100 12.8V 100AH",
@@ -1150,6 +1255,7 @@ const DATA = {
     },
     {
       "src": "HELIOS",
+      "qty": 1,
       "type": "Helios Li-Ion",
       "series": "Helios Series",
       "model": "BATT LI-ION HELIOS HL 25X100 25.6V 100AH",
@@ -1160,6 +1266,7 @@ const DATA = {
     },
     {
       "src": "HELIOS",
+      "qty": 1,
       "type": "Helios Li-Ion",
       "series": "Helios Series",
       "model": "BATT LI-ION HELIOS HL 51X100 51.2V 100AH",
@@ -1170,6 +1277,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "NXG e Series (PWM Solar Inverters)",
       "model": "NXG 850e",
@@ -1180,6 +1288,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "NXG e Series (PWM Solar Inverters)",
       "model": "NXG 1150e",
@@ -1190,6 +1299,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "NXG e Series (PWM Solar Inverters)",
       "model": "NXG 1450e",
@@ -1200,6 +1310,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "NXG e Series (PWM Solar Inverters)",
       "model": "NXG 1850e",
@@ -1210,6 +1321,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "NXG e Series (PWM Solar Inverters)",
       "model": "NXG 2350",
@@ -1220,6 +1332,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "NXG PRO Series (MPPT Solar Inverters)",
       "model": "SOLAR S/W UPS NXG PRO e 1KVA/12V",
@@ -1230,6 +1343,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "NXG PRO Series (MPPT Solar Inverters)",
       "model": "S/W UPS SOLAR NXG PRO e 1KVA/24V",
@@ -1240,6 +1354,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "Solarverter Series (PWM Solar PCUs)",
       "model": "SOLARVERTER 3KVA/48V",
@@ -1250,6 +1365,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "Solarverter Series (PWM Solar PCUs)",
       "model": "SOLARVERTER 5KVA/48V (PWM)",
@@ -1260,6 +1376,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "NXP Series (PWM)",
       "model": "NXP 3500",
@@ -1270,6 +1387,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "NXP Pro (MPPT)",
       "model": "NXP PRO 3500",
@@ -1280,6 +1398,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "Solarverter PRO Series (MPPT Solar PCUs)",
       "model": "SOLARVERTER PRO 2KVA/24V eco",
@@ -1290,6 +1409,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "Solarverter PRO Series (MPPT Solar PCUs)",
       "model": "SOLARVERTER PRO 3KVA/36V Eco",
@@ -1300,6 +1420,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "Solarverter PRO Series (MPPT Solar PCUs)",
       "model": "SOLARVERTER PRO 3.5KVA/48V",
@@ -1310,6 +1431,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "Solarverter PRO Series (MPPT Solar PCUs)",
       "model": "SOLARVERTER PRO 5KVA/48V",
@@ -1320,6 +1442,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "Solarverter PRO Series (MPPT Solar PCUs)",
       "model": "SOLARVERTER PRO 6KVA/96V",
@@ -1330,6 +1453,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "Solarverter PRO Series (MPPT Solar PCUs)",
       "model": "SOLARVERTER PRO 7.5KVA/96V ECO",
@@ -1340,6 +1464,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "Solarverter PRO Series (MPPT Solar PCUs)",
       "model": "SOLARVERTER PRO 10.1KVA/120V ECO",
@@ -1350,6 +1475,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "NXT+ Series (MPPT Solar PCUs)",
       "model": "PCU NXT+ 7.5 KVA/96V",
@@ -1360,6 +1486,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Inverter",
       "series": "Solar NXE PRO Series",
       "model": "SOLAR NXE PRO 15KVA/240V",
@@ -1370,6 +1497,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "Hybrid TX Series (Hybrid Inverters)",
       "model": "HYBRID TX 3KVA + Dongle (PV 3KW)",
@@ -1380,6 +1508,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "Hybrid TX Series (Hybrid Inverters)",
       "model": "HYBRID TX 4KVA + Dongle (PV 4KW)",
@@ -1390,6 +1519,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "Hybrid TX Series (Hybrid Inverters)",
       "model": "HYBRID TX 5KVA + Dongle (PV 5KW)",
@@ -1400,6 +1530,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "Hybrid TX Series (Hybrid Inverters)",
       "model": "HYBRID TX 3.75KVA/48V",
@@ -1410,6 +1541,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "HYBRID High Frequency (1 phase) Wall Mount",
       "model": "SOLAR HYBRID INV HF NXH 130 A48 3kW",
@@ -1420,6 +1552,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "HYBRID High Frequency (1 phase) Wall Mount",
       "model": "SOLAR HYBRID INV HF NXH 150 A48 5KW",
@@ -1430,6 +1563,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "HYBRID High Frequency (3 phase) Wall Mount",
       "model": "SOLAR HYBRID INV HF NXH 308 A 8KW",
@@ -1440,6 +1574,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "HYBRID High Frequency (3 phase) Wall Mount",
       "model": "SOLAR HYBRID INV HF NXH 310 A 10KW",
@@ -1450,6 +1585,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "HYBRID High Frequency (3 phase) Wall Mount",
       "model": "SOLAR HYBRID INV HF NXH 312 A 12KW",
@@ -1460,6 +1596,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Battery",
       "series": "Tubular Solar Batteries",
       "model": "LPT 1240L",
@@ -1470,6 +1607,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Battery",
       "series": "Tubular Solar Batteries",
       "model": "LPT 1240H",
@@ -1480,6 +1618,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Battery",
       "series": "Tubular Solar Batteries",
       "model": "LPT 1280H",
@@ -1490,6 +1629,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Battery",
       "series": "Tall Tubular Solar Batteries",
       "model": "LPTT 12100H",
@@ -1500,6 +1640,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Battery",
       "series": "Tall Tubular Solar Batteries",
       "model": "LPTT 12120H",
@@ -1510,6 +1651,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Battery",
       "series": "Tall Tubular Solar Batteries",
       "model": "LPTT 12150L",
@@ -1520,6 +1662,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Battery",
       "series": "Tall Tubular Solar Batteries",
       "model": "LPTT 12150H",
@@ -1530,6 +1673,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Battery",
       "series": "Tall Tubular Solar Batteries",
       "model": "LPTT 12200L",
@@ -1540,6 +1684,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Battery",
       "series": "Tall Tubular Solar Batteries",
       "model": "LPTT 12200H",
@@ -1550,6 +1695,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Charge Controller",
       "series": "Solar Charge Controllers",
       "model": "SCC 1206",
@@ -1560,6 +1706,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Charge Controller",
       "series": "Solar Charge Controllers",
       "model": "SCC 1210",
@@ -1570,6 +1717,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Charge Controller",
       "series": "Solar Charge Controllers",
       "model": "SCC 1220",
@@ -1580,6 +1728,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Charge Controller",
       "series": "Solar Charge Controllers",
       "model": "SCC 1206e",
@@ -1590,6 +1739,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Charge Controller",
       "series": "Solar Charge Controllers",
       "model": "SCC 1210e",
@@ -1600,6 +1750,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Charge Controller",
       "series": "Solar Charge Controllers",
       "model": "SCC 1220e",
@@ -1610,6 +1761,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Charge Controller",
       "series": "Solar Charge Controllers",
       "model": "SCC 1250",
@@ -1620,6 +1772,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (1-Phase)",
       "model": "NXIT130 3KW/1P + Dongle",
@@ -1630,6 +1783,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (1-Phase)",
       "model": "NXIT150 5KW/1P + Dongle",
@@ -1640,6 +1794,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (1-Phase)",
       "model": "NXI 140 (4kW) (exc. Dongle)",
@@ -1650,6 +1805,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (1-Phase)",
       "model": "NXI 150 (5kW) (exc. Dongle)",
@@ -1660,6 +1816,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (3-Phase)",
       "model": "NXI 305 (5kW) (exc. Dongle)",
@@ -1670,6 +1827,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (3-Phase)",
       "model": "NXI 306 (6kW) (exc. Dongle)",
@@ -1680,6 +1838,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (3-Phase)",
       "model": "NXI 308 (8kW) (exc. Dongle)",
@@ -1690,6 +1849,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (3-Phase)",
       "model": "NXI 310 (10kW) (exc. Dongle)",
@@ -1700,6 +1860,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (3-Phase)",
       "model": "NXIT310 (10KW) + Dongle",
@@ -1710,6 +1871,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (3-Phase)",
       "model": "NXI 312 (12kW) (exc. Dongle)",
@@ -1720,6 +1882,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (3-Phase)",
       "model": "NXI 315 (15kW) (exc. Dongle)",
@@ -1730,6 +1893,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (3-Phase)",
       "model": "NXI 320 (20kW) (exc. Dongle)",
@@ -1740,6 +1904,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (3-Phase)",
       "model": "NXI 325 (25kW) (exc. Dongle)",
@@ -1750,6 +1915,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (3-Phase)",
       "model": "NXI 330 (30kW) (exc. Dongle)",
@@ -1760,6 +1926,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (3-Phase)",
       "model": "NXI 350 (50kW) (exc. Dongle)",
@@ -1770,6 +1937,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (3-Phase)",
       "model": "NXI 360 (60kW) (exc. Dongle)",
@@ -1780,6 +1948,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (3-Phase)",
       "model": "NXI 380 (80kW) (exc. Dongle)",
@@ -1790,6 +1959,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (3-Phase)",
       "model": "NXI 3100 (100kW) (exc. Dongle)",
@@ -1800,6 +1970,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (3-Phase)",
       "model": "NXI A3250-HV (250kW) (800Vac Utility Grade GTI)",
@@ -1810,6 +1981,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Grid Tie Inverter",
       "series": "NXI Series (3-Phase)",
       "model": "NXI A3350-HV (350kW) (800Vac Utility Grade GTI)",
@@ -1820,6 +1992,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Accessory",
       "series": "GTI Accessories",
       "model": "S3-WIFI-ST (GTI WiFi Dongle)",
@@ -1830,6 +2003,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Accessory",
       "series": "GTI Accessories",
       "model": "DONGLE S4 WI-FI USB (for NXI 140/150)",
@@ -1840,6 +2014,7 @@ const DATA = {
     },
     {
       "src": "GTI",
+      "qty": 1,
       "type": "Accessory",
       "series": "GTI Accessories",
       "model": "GTI ARRAY MANAGEMENT UNIT AI 2000 (250kW & 350kW)",
@@ -1850,6 +2025,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "Polycrystalline Solar Panels",
       "model": "Poly 170W/12V",
@@ -1860,6 +2036,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "585W Panel/Pallet",
       "model": "PV MOD LUM 24585T144 BI-TS",
@@ -1870,6 +2047,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "585W Panel/Pallet",
       "model": "PV MOD LUM 24585T144 BI-TS 31",
@@ -1880,6 +2058,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "585W Panel/Pallet",
       "model": "PV MOD LUM 24585TG144 BI-GL",
@@ -1890,6 +2069,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "585W Panel/Pallet",
       "model": "PV MOD LUM 24585TG144 BI-GL 31",
@@ -1900,6 +2080,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "590W Panel/Pallet",
       "model": "PV MOD LUM 24590T144 BI-TS",
@@ -1910,6 +2091,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "590W Panel/Pallet",
       "model": "PV MOD LUM 24590T144 BI-TS-31",
@@ -1920,6 +2102,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "595W Panel/Pallet",
       "model": "PV MOD LUM 24595TG144 BI-GL V1",
@@ -1930,6 +2113,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "610W Panel/Pallet",
       "model": "PV MOD LUM 610TG132 BI-GL V1",
@@ -1940,6 +2124,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "610W Panel/Pallet",
       "model": "PV MOD LUM 610TG132 BI-GL SPGS36",
@@ -1950,6 +2135,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "615W Panel/Pallet",
       "model": "PV MOD LUM 615TG132 BI-GL V1",
@@ -1960,6 +2146,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "615W Panel/Pallet",
       "model": "PV MOD LUM 615TG132 BI-GL SPGS36",
@@ -1970,6 +2157,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "620W Panel/Pallet",
       "model": "PV MOD LUM 620TG132 BI-GL V1",
@@ -1980,6 +2168,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "620W Panel/Pallet",
       "model": "PV MOD LUM 620TG132 BI-GL SPGS36",
@@ -1990,6 +2179,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "625W Panel/Pallet",
       "model": "PV MOD LUM 625TG132 BI-GL V1",
@@ -2000,6 +2190,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "625W Panel/Pallet",
       "model": "PV MOD LUM 625TG132 BI-GL SPGS36",
@@ -2010,6 +2201,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "630W Panel/Pallet",
       "model": "PV MOD LUM 630TG132 BI-GL V1",
@@ -2020,6 +2212,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Solar Panel",
       "series": "630W Panel/Pallet",
       "model": "PV MOD LUM 630TG132 BI-GL SPGS36",
@@ -2030,6 +2223,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG850e-12V1N-B40L4N-170W-1N",
@@ -2040,6 +2234,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG850e-12V1N-B40H4N-170W-1N",
@@ -2050,6 +2245,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG850e-12V1N-B80H2N-170W-1N",
@@ -2060,6 +2256,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG850e-12V1N-B100H1N-170W-1N",
@@ -2070,6 +2267,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG850e-12V1N-B120H1N-170W-1N",
@@ -2080,6 +2278,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG850e-12V1N-B150L1N-170W-1N",
@@ -2090,6 +2289,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG850e-12V1N-B150H1N-170W-1N",
@@ -2100,6 +2300,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG850e-12V1N-B200L1N-170W-1N",
@@ -2110,6 +2311,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG850e-12V1N-B200H1N-170W-1N",
@@ -2120,6 +2322,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG1150e-12V1N-B40L4N-170W-1N",
@@ -2130,6 +2333,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG1150e-12V1N-B40H4N-170W-1N",
@@ -2140,6 +2344,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG1150e-12V1N-B80H2N-170W-1N",
@@ -2150,6 +2355,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG1150e-12V1N-B100H1N-170W-1N",
@@ -2160,6 +2366,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG1150e-12V1N-B120H1N-170W-1N",
@@ -2170,6 +2377,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG1150e-12V1N-B150L1N-170W-1N",
@@ -2180,6 +2388,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG1150e-12V1N-B150H1N-170W-1N",
@@ -2190,6 +2399,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG1150e-12V1N-B200L1N-170W-1N",
@@ -2200,6 +2410,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG1150e-12V1N-B200H1N-170W-1N",
@@ -2210,6 +2421,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG1450e-12V1N-B40L4N-170W-1N",
@@ -2220,6 +2432,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG1450e-12V1N-B80H2N-170W-1N",
@@ -2230,6 +2443,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG1450e-12V1N-B100H1N-170W-1N",
@@ -2240,6 +2454,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG1450e-12V1N-B120H1N-170W-1N",
@@ -2250,6 +2465,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG1450e-12V1N-B150L1N-170W-1N",
@@ -2260,6 +2476,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG1450e-12V1N-B150H1N-170W-1N",
@@ -2270,6 +2487,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG1450e-12V1N-B200L1N-170W-1N",
@@ -2280,6 +2498,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG e Series SPGS",
       "model": "NXG1450e-12V1N-B200H1N-170W-1N",
@@ -2290,6 +2509,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V31N-B150L62N-585WBI-TSPL-31N",
@@ -2300,6 +2520,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V31N-B150H62N-585WBI-TSPL-31N",
@@ -2310,6 +2531,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V1N-B80H2N-585WBI-TS-1N",
@@ -2320,6 +2542,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V1N-B100H2N-585WBI-TS-1N",
@@ -2330,6 +2553,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V1N-B150L2N-585WBI-TS-1N",
@@ -2340,6 +2564,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V1N-B150H2N-585WBI-TS-1N",
@@ -2350,6 +2575,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V1N-B200L2N-585WBI-TS-1N",
@@ -2360,6 +2586,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V1N-B200H2N-585WBI-TS-1N",
@@ -2370,6 +2597,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850-24V1N-B80H4N-585WBI-TS-1N",
@@ -2380,6 +2608,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850-24V1N-B150L2N-585WBI-TS-1N",
@@ -2390,6 +2619,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850-24V1N-B150H2N-P590BI-TS-2N",
@@ -2400,6 +2630,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850-24V1N-B200H2N-P590BI-TS-2N",
@@ -2410,6 +2641,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V1N-B80H2N-P590BI-TS-2N",
@@ -2420,6 +2652,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V1N-B100H2N-P590BI-TS-2N",
@@ -2430,6 +2663,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V1N-B120H2N-P590BI-TS-2N",
@@ -2440,6 +2674,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V1N-B150L2N-P590BI-TS-2N",
@@ -2450,6 +2685,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V1N-B150H2N-P590BI-TS-2N",
@@ -2460,6 +2696,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V1N-B200L2N-P590BI-TS-2N",
@@ -2470,6 +2707,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V1N-B200H2N-P590BI-TS-2N",
@@ -2480,6 +2718,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V31N-B150L62N-P590BI-TSPL-31N",
@@ -2490,6 +2729,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V31N-B150H62N-P590BI-TSPL-31N",
@@ -2500,6 +2740,7 @@ const DATA = {
     },
     {
       "src": "SOLAR",
+      "qty": 1,
       "type": "Combo",
       "series": "NXG SPGS",
       "model": "NXG1850e-24V31N-B200L62N-P590BI-TSPL-31N",
@@ -2515,12 +2756,37 @@ const sourceOrder = ['INBT', 'HKVA', 'HELIOS', 'SOLAR', 'GTI'];
 const sourceConfig = DATA.sources;
 
 // selectedKeys: products currently ticked via checkbox (drives the message).
+// selectedQuantities: per-product quantity Map (key -> qty). Default 1 on first select.
 // currentMessageKeys: snapshot of keys the message panel currently reflects,
-// used to auto-refresh the draft when the global discount changes.
+// used to auto-refresh the draft when the global discount or a qty changes.
 let selectedKeys = new Set();
+const selectedQuantities = new Map();
 let currentMessageKeys = [];
 let messageDirty = false;
 let globalDiscount = 0;
+
+function clampQty(value) {
+  const n = parseInt(value, 10);
+  if (!Number.isFinite(n) || n < 1) return 1;
+  if (n > 9999) return 9999;
+  return n;
+}
+
+function getQty(key) {
+  return selectedQuantities.has(key) ? selectedQuantities.get(key) : 1;
+}
+
+function setQty(key, value) {
+  const qty = clampQty(value);
+  selectedQuantities.set(key, qty);
+  const input = document.querySelector(`.qty-input[data-key="${key}"]`);
+  if (input && document.activeElement !== input) input.value = String(qty);
+  refreshDraftMessageIfActive();
+}
+
+function adjustQty(key, delta) {
+  setQty(key, getQty(key) + delta);
+}
 
 function formatINR(value) {
   const n = Math.round(Number(value) || 0);
@@ -2669,10 +2935,19 @@ function setRowSelected(key, selected) {
 
 function toggleSelect(key) {
   const nowSelected = !selectedKeys.has(key);
-  if (nowSelected) selectedKeys.add(key);
-  else selectedKeys.delete(key);
+  if (nowSelected) {
+    selectedKeys.add(key);
+    if (!selectedQuantities.has(key)) selectedQuantities.set(key, 1);
+  } else {
+    selectedKeys.delete(key);
+  }
   setRowSelected(key, nowSelected);
   syncSectionSelectAll(key);
+  const qtyInput = document.querySelector(`.qty-input[data-key="${key}"]`);
+  if (qtyInput) {
+    qtyInput.value = String(getQty(key));
+    qtyInput.disabled = !nowSelected;
+  }
   updateSelectionBar();
 }
 
@@ -2693,9 +2968,18 @@ function toggleSelectAllInSection(checkbox) {
   const rowChecks = section.querySelectorAll('.row-check');
   rowChecks.forEach((cb) => {
     const key = cb.dataset.key;
-    if (checkbox.checked) selectedKeys.add(key);
-    else selectedKeys.delete(key);
+    if (checkbox.checked) {
+      selectedKeys.add(key);
+      if (!selectedQuantities.has(key)) selectedQuantities.set(key, 1);
+    } else {
+      selectedKeys.delete(key);
+    }
     setRowSelected(key, checkbox.checked);
+    const qtyInput = document.querySelector(`.qty-input[data-key="${key}"]`);
+    if (qtyInput) {
+      qtyInput.value = String(getQty(key));
+      qtyInput.disabled = !checkbox.checked;
+    }
   });
   updateSelectionBar();
 }
@@ -2703,6 +2987,11 @@ function toggleSelectAllInSection(checkbox) {
 function clearSelection() {
   selectedKeys.forEach((key) => setRowSelected(key, false));
   selectedKeys.clear();
+  selectedQuantities.clear();
+  document.querySelectorAll('.qty-input').forEach((inp) => {
+    inp.value = '1';
+    inp.disabled = true;
+  });
   document.querySelectorAll('.select-all-check').forEach((cb) => { cb.checked = false; });
   updateSelectionBar();
 }
@@ -2714,6 +3003,12 @@ function reapplySelectionState() {
     const allOn = allChecks.length > 0 && allChecks.every((cb) => selectedKeys.has(cb.dataset.key));
     const headCb = section.querySelector('.select-all-check');
     if (headCb) headCb.checked = allOn;
+  });
+  document.querySelectorAll('.qty-input').forEach((inp) => {
+    const key = inp.dataset.key;
+    const q = getQty(key);
+    inp.value = String(q);
+    inp.disabled = !selectedKeys.has(key);
   });
   updateSelectionBar();
 }
@@ -2762,6 +3057,7 @@ function renderResults(list) {
               <th>Model</th>
               <th>Type</th>
               <th>DC Voltage</th>
+              <th class="qty-th">Qty</th>
               <th>GST Price</th>
               <th>MRP</th>
               <th>Warranty</th>
@@ -2788,6 +3084,8 @@ function renderResults(list) {
         : `<div class="price-gst">₹${formatINR(adjustedPrice)} <span class="price-delta">${discount > 0 ? '+' : ''}${discount}%</span></div><div class="price-base">Base ₹${formatINR(p.gstPrice)}</div>`;
       const mrpHtml = p.mrp ? `<div class="price-mrp">Base ₹${formatINR(p.mrp)}</div>` : `<div class="price-mrp">—</div>`;
 
+      const qtyValue = selectedQuantities.has(key) ? selectedQuantities.get(key) : 1;
+
       html += `<tr id="row-${key}" class="product-row" onclick="toggleSelect('${key}')">
         <td class="select-cell" onclick="event.stopPropagation()">
           <input type="checkbox" class="row-check" data-key="${key}" onclick="toggleSelect('${key}')">
@@ -2798,6 +3096,15 @@ function renderResults(list) {
         </td>
         <td><span class="type-badge ${typeClassName}">${p.type}</span></td>
         <td>${p.dcV && p.dcV !== '–' ? p.dcV : '—'}</td>
+        <td class="qty-cell" onclick="event.stopPropagation()">
+          <div class="qty-stepper">
+            <button type="button" class="qty-btn qty-dec" aria-label="Decrease quantity" onclick="event.stopPropagation(); adjustQty('${key}', -1)">−</button>
+            <input type="number" min="1" step="1" class="qty-input" data-key="${key}" value="${qtyValue}" disabled
+                   onclick="event.stopPropagation()" onfocus="event.stopPropagation()"
+                   oninput="setQty('${key}', this.value)">
+            <button type="button" class="qty-btn qty-inc" aria-label="Increase quantity" onclick="event.stopPropagation(); adjustQty('${key}', 1)">+</button>
+          </div>
+        </td>
         <td>${priceHtml}</td>
         <td>${mrpHtml}</td>
         <td><div class="warranty-info">${p.warranty || '—'}</div></td>
@@ -2824,15 +3131,26 @@ function handleGlobalDiscountInput(value) {
   }
 }
 
+function refreshDraftMessageIfActive() {
+  if (currentMessageKeys.length && !messageDirty) {
+    const products = currentMessageKeys.map(productFromKey).filter(Boolean);
+    if (products.length) setMessageValue(buildCombinedMessage(products));
+  }
+}
+
 /* ============================================================
    Message building (supports one or many selected products)
    ============================================================ */
 
 function buildMessageItem(p, index, total) {
+  const idx = DATA.products.indexOf(p);
+  const qty = idx >= 0 ? getQty(productKey(idx)) : 1;
   const adjustedPrice = currentAdjustedPrice(p);
+  const lineTotal = adjustedPrice * qty;
   const lines = [];
   const prefix = total > 1 ? `${index + 1}) ` : '';
-  lines.push(`${prefix}*${p.model}*`);
+  const qtyTag = qty > 1 ? ` _(x ${qty})_` : '';
+  lines.push(`${prefix}*${p.model}*${qtyTag}`);
 
   let typeLine = `🏷️ ${p.type}`;
   if (p.series) typeLine += ` – ${p.series}`;
@@ -2845,7 +3163,13 @@ function buildMessageItem(p, index, total) {
     if (p.inbuiltBattery && p.inbuiltBattery !== '—') lines.push(`🔋 Inbuilt Battery: ${p.inbuiltBattery}`);
     if (p.maxExternalAh) lines.push(`🔌 Max External: ${p.maxExternalAh}`);
   }
-  lines.push(`💰 Price (GST Incl.): ₹${formatINR(adjustedPrice)}`);
+  if (qty > 1) {
+    lines.push(`🔢 Quantity: ${qty}`);
+    lines.push(`💰 Unit Price (GST Incl.): ₹${formatINR(adjustedPrice)}`);
+    lines.push(`💰 Line Total (GST Incl.): ₹${formatINR(lineTotal)}`);
+  } else {
+    lines.push(`💰 Price (GST Incl.): ₹${formatINR(adjustedPrice)}`);
+  }
   lines.push(`🛡️ Warranty: ${p.warranty || '—'}`);
 
   return lines.join('\n');
@@ -2855,16 +3179,24 @@ function buildCombinedMessage(products) {
   const discount = getGlobalDiscount();
   const suffix = discountSuffix(discount);
   const total = products.length;
+  const totalUnits = products.reduce((acc, p) => {
+    const idx = DATA.products.indexOf(p);
+    return acc + (idx >= 0 ? getQty(productKey(idx)) : 1);
+  }, 0);
 
   let msg = total > 1
-    ? `*Luminous – Price Quote (${total} items)*\n\n`
+    ? `*Luminous – Price Quote (${total} items · ${totalUnits} units)*\n\n`
     : `*Luminous ${products[0].model}*\n\n`;
 
   msg += products.map((p, i) => buildMessageItem(p, i, total)).join('\n\n');
 
   if (total > 1) {
-    const sum = products.reduce((acc, p) => acc + currentAdjustedPrice(p), 0);
-    msg += `\n\n*Total (GST Incl.): ₹${formatINR(sum)}*`;
+    const sum = products.reduce((acc, p) => {
+      const idx = DATA.products.indexOf(p);
+      const qty = idx >= 0 ? getQty(productKey(idx)) : 1;
+      return acc + currentAdjustedPrice(p) * qty;
+    }, 0);
+    msg += `\n\n*Grand Total (GST Incl.): ₹${formatINR(sum)}*`;
   }
 
   msg += `\n\n_Price is inclusive of GST. Subject to change without notice.${suffix.trim() ? (' ' + suffix.trim()) : ''}_`;
@@ -2891,12 +3223,22 @@ function generateMessageForSelection() {
   const products = keys.map(productFromKey).filter(Boolean);
   if (!products.length) return;
 
+  keys.forEach((key) => {
+    if (!selectedQuantities.has(key)) selectedQuantities.set(key, 1);
+  });
+
   currentMessageKeys = keys;
   const panel = document.getElementById('messagePanel');
   panel.classList.add('visible');
 
   setMessageValue(buildCombinedMessage(products));
   messageDirty = false;
+
+  document.querySelectorAll('.qty-input').forEach((inp) => {
+    const key = inp.dataset.key;
+    inp.value = String(getQty(key));
+    inp.disabled = !selectedKeys.has(key);
+  });
 
   panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   resetCopyButtonLabel();
@@ -2941,7 +3283,7 @@ function init() {
   initMessageEditor();
   applyFilters();
   document.getElementById('messagePanel').classList.add('visible');
-  document.getElementById('messageText').value = 'Tick the checkbox next to one or more products, then click Generate Message to draft an editable quote here.';
+  document.getElementById('messageText').value = 'Tick the checkbox next to one or more products, adjust the Qty (default 1) for each item, then click Generate Message to draft an editable quote here.';
   updateSelectionBar();
 }
 
@@ -2953,5 +3295,7 @@ window.toggleSelectAllInSection = toggleSelectAllInSection;
 window.clearSelection = clearSelection;
 window.generateMessageForSelection = generateMessageForSelection;
 window.handleGlobalDiscountInput = handleGlobalDiscountInput;
+window.setQty = setQty;
+window.adjustQty = adjustQty;
 
 document.addEventListener('DOMContentLoaded', init);
